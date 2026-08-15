@@ -1,0 +1,99 @@
+site_name: ГИСОГД — руководство пользователя
+site_description: Иллюстрированное руководство пользователя платформы ГИСОГД
+site_author: Поляков Дмитрий
+site_url: https://dmibear.github.io/gisogd-user-guide/
+repo_url: https://github.com/DmiBear/gisogd-user-guide
+repo_name: DmiBear/gisogd-user-guide
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: .site
+strict: true
+
+theme:
+  name: material
+  language: ru
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Включить тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Включить светлую тему
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DmiBear
+      name: Профиль Дмитрия Полякова на GitHub
+
+copyright: © 2026 Поляков Дмитрий
+
+nav:
+  - Главная: index.md
+  - Начало работы:
+      - Введение: introduction.md
+      - Назначение и условия применения: purpose.md
+      - Подготовка к работе: getting-started.md
+  - Основные операции:
+      - Обзор: operations/index.md
+      - Навигация и табличные формы: operations/navigation-and-tables.md
+      - Записи и карточки: operations/records.md
+      - Работа с картой: operations/map.md
+  - Состав ГИСОГД:
+      - Обзор: gisogd/index.md
+      - Разделы и документы: gisogd/overview.md
+      - Регистрация заявок: gisogd/requests.md
+      - Размещение документа: gisogd/document-placement.md
+      - Реестры документов:
+          - Разделы 1–6: gisogd/registries/sections-1-6.md
+          - Разделы 7–12: gisogd/registries/sections-7-12.md
+          - Раздел 13:
+              - Обзор: gisogd/registries/section-13/index.md
+              - Земельные участки и объекты: gisogd/registries/section-13/land-and-construction.md
+              - Разрешения: gisogd/registries/section-13/permits.md
+              - Уведомления: gisogd/registries/section-13/notifications.md
+              - Сервитуты и технические условия: gisogd/registries/section-13/additional.md
+          - Разделы 14–18: gisogd/registries/sections-14-18.md
+  - О проекте: about.md
