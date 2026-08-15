@@ -62,3 +62,5 @@
 Поляков Дмитрий — технический писатель.
 
 [Портфолио на GitHub](https://github.com/DmiBear/polyakov-dmitriy-techwriter)
+
+[Telegram](https://t.me/DmiBear)
