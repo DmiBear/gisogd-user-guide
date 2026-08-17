@@ -6,7 +6,7 @@
 
 ## Сайт руководства ГИСОГД
 
-[Открыть руководство ГИСОГД](https://dmibear.github.io/gisogd-user-guide/)
+[Открыть руководство ГИСОГД](https://gisogd-user-guide.polakov1245.workers.dev/)
 
 ## Для чего нужна ГИСОГД
 
