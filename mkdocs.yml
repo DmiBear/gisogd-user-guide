@@ -7,7 +7,7 @@ repo_name: DmiBear/gisogd-user-guide
 edit_uri: edit/main/docs/
 
 docs_dir: docs
-site_dir: .site
+site_dir: _site
 strict: true
 
 theme:
