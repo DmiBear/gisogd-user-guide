@@ -97,4 +97,10 @@ nav:
               - Уведомления: gisogd/registries/section-13/notifications.md
               - Сервитуты и технические условия: gisogd/registries/section-13/additional.md
           - Разделы 14–18: gisogd/registries/sections-14-18.md
+  - Программа обучения:
+      - Обзор программы: training/index.md
+      - Вебинары 1–5: training/webinars-1-5.md
+      - Вебинары 6–10: training/webinars-6-10.md
+      - Практические работы: training/practice.md
+      - Контроль и рекомендации: training/assessment.md
   - О проекте: about.md
