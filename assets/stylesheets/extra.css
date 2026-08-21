@@ -1,0 +1,27 @@
+:root {
+  --md-primary-fg-color: #37474f;
+  --md-accent-fg-color: #1976d2;
+}
+
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto 0.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset h1 {
+  font-weight: 650;
+}
+
+.md-typeset h2 {
+  margin-top: 1.8em;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.82rem;
+}
