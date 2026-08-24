@@ -25,3 +25,72 @@
 .md-typeset details {
   font-size: 0.82rem;
 }
+
+.md-typeset img:not(.ui-icon) {
+  cursor: zoom-in;
+}
+
+.md-typeset img.ui-icon {
+  display: inline-block;
+  width: auto;
+  max-width: 1.6em;
+  max-height: 1.6em;
+  margin: 0 0.12em;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  vertical-align: -0.25em;
+}
+
+.docs-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.82);
+  cursor: zoom-out;
+}
+
+.docs-lightbox.is-open {
+  display: flex;
+}
+
+.docs-lightbox__image {
+  display: block;
+  max-width: min(96vw, 1800px);
+  max-height: 94vh;
+  width: auto;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.35);
+  background: #fff;
+}
+
+body.docs-lightbox-open {
+  overflow: hidden;
+}
+
+/* Подписи к рисункам в формате исходного руководства */
+.md-typeset figure.doc-figure {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.md-typeset figure.doc-figure > img {
+  margin: 0 auto;
+}
+
+.md-typeset figure.doc-figure > figcaption {
+  margin: 0.55rem auto 0;
+  max-width: 92%;
+  font-size: 0.85rem;
+  font-style: normal;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}

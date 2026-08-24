@@ -63,6 +63,9 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/lightbox.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -103,4 +106,4 @@ nav:
       - Вебинары 6–10: training/webinars-6-10.md
       - Практические работы: training/practice.md
       - Контроль и рекомендации: training/assessment.md
-  - О проекте: about.md
+  - О руководстве: about.md
