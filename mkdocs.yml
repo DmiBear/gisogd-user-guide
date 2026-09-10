@@ -1,7 +1,7 @@
 site_name: ГИСОГД — руководство пользователя
 site_description: Иллюстрированное руководство пользователя платформы ГИСОГД
 site_author: Поляков Дмитрий
-site_url: https://dmibear.github.io/gisogd-user-guide/
+site_url: https://gisogd-user-guide.polakov1245.workers.dev/
 repo_url: https://github.com/DmiBear/gisogd-user-guide
 repo_name: DmiBear/gisogd-user-guide
 edit_uri: edit/main/docs/
@@ -13,10 +13,16 @@ strict: true
 theme:
   name: material
   language: ru
+  logo: assets/images/brand/logo.svg
+  favicon: assets/images/brand/favicon.svg
+  font: false
   icon:
     repo: fontawesome/brands/github
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -26,16 +32,14 @@ theme:
     - search.highlight
     - content.code.copy
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue grey
+    - scheme: default
+      primary: white
       accent: blue
       toggle:
         icon: material/brightness-7
         name: Включить тёмную тему
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue grey
+    - scheme: slate
+      primary: black
       accent: light blue
       toggle:
         icon: material/brightness-4
@@ -67,6 +71,7 @@ extra_javascript:
   - assets/javascripts/lightbox.js
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/DmiBear
