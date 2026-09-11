@@ -2,10 +2,6 @@ site_name: ГИСОГД — руководство пользователя
 site_description: Иллюстрированное руководство пользователя платформы ГИСОГД
 site_author: Поляков Дмитрий
 site_url: https://gisogd-user-guide.polakov1245.workers.dev/
-repo_url: https://github.com/DmiBear/gisogd-user-guide
-repo_name: DmiBear/gisogd-user-guide
-edit_uri: edit/main/docs/
-
 docs_dir: docs
 site_dir: _site
 strict: true
@@ -13,7 +9,7 @@ strict: true
 theme:
   name: material
   language: ru
-  logo: assets/images/brand/logo.svg
+  logo: assets/images/brand/lightning.png
   favicon: assets/images/brand/favicon.svg
   font: false
   icon:
@@ -111,4 +107,5 @@ nav:
       - Вебинары 6–10: training/webinars-6-10.md
       - Практические работы: training/practice.md
       - Контроль и рекомендации: training/assessment.md
+  - Видеоинструкции: videos/index.md
   - О руководстве: about.md
