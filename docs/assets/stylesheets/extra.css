@@ -109,16 +109,20 @@ body {
   opacity: 1;
 }
 
+.md-tabs__item {
+  position: relative;
+}
+
 .md-tabs__link:hover,
 .md-tabs__item--active .md-tabs__link {
   color: var(--gisogd-blue);
 }
 
-.md-tabs__item--active .md-tabs__link::after {
+.md-tabs__item--active::after {
   position: absolute;
-  right: 0;
-  bottom: -0.78rem;
-  left: 0;
+  right: 0.6rem;
+  bottom: 0;
+  left: 0.6rem;
   height: 2px;
   content: "";
   background: var(--gisogd-blue);
@@ -133,7 +137,7 @@ body {
 }
 
 .md-main__inner {
-  max-width: 96rem;
+  max-width: 84rem;
   margin-top: 1.25rem;
 }
 
@@ -355,15 +359,28 @@ body {
 }
 
 .gisogd-home-section__icon {
-  display: grid;
+  display: block;
+  flex: 0 0 2rem;
   width: 2rem;
   height: 2rem;
-  color: #ffffff;
-  font-size: 1rem;
-  place-items: center;
+  overflow: hidden;
   background: linear-gradient(145deg, #78beff, #4f8cff);
   border-radius: 0.55rem;
   box-shadow: 0 0.3rem 0.8rem rgba(63, 132, 237, 0.18);
+}
+
+.md-typeset .gisogd-home-section__icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  object-fit: cover;
+  background: transparent;
+  border: 0;
+  border-radius: inherit;
+  box-shadow: none;
+  cursor: default;
 }
 
 .gisogd-home-links {
@@ -408,6 +425,14 @@ body {
   color: var(--gisogd-onboarding-muted);
   font-size: 0.7rem;
   line-height: 1.45;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .gisogd-onboarding h2 {
+  color: #172b3a;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .gisogd-onboarding > p {
+  color: #516a82;
 }
 
 .gisogd-onboarding__steps {

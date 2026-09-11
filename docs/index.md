@@ -19,7 +19,7 @@ hide:
 <div class="gisogd-dashboard">
   <main class="gisogd-dashboard__catalog">
     <section class="gisogd-home-section">
-      <h2><span class="gisogd-home-section__icon" aria-hidden="true">▤</span>Заявления и разрешительные документы</h2>
+      <h2><span class="gisogd-home-section__icon" aria-hidden="true"><img src="assets/images/home/applications.png" alt=""></span>Заявления и разрешительные документы</h2>
       <nav class="gisogd-home-links" aria-label="Заявления и разрешительные документы">
         <a href="gisogd/requests/">Регистрация заявок</a>
         <a href="gisogd/registries/section-13/land-and-construction/#54134">Градостроительный план земельного участка (ГПЗУ)</a>
@@ -30,7 +30,7 @@ hide:
     </section>
 
     <section class="gisogd-home-section">
-      <h2><span class="gisogd-home-section__icon" aria-hidden="true">▱</span>Реестры документов</h2>
+      <h2><span class="gisogd-home-section__icon" aria-hidden="true"><img src="assets/images/home/registries.png" alt=""></span>Реестры документов</h2>
       <nav class="gisogd-home-links" aria-label="Реестры документов">
         <a href="gisogd/overview/">Разделы и документы ГИСОГД</a>
         <a href="gisogd/registries/sections-1-6/">Реестры документов: разделы 1–6</a>
@@ -41,7 +41,7 @@ hide:
     </section>
 
     <section class="gisogd-home-section">
-      <h2><span class="gisogd-home-section__icon" aria-hidden="true">◫</span>Обучение</h2>
+      <h2><span class="gisogd-home-section__icon" aria-hidden="true"><img src="assets/images/home/training.png" alt=""></span>Обучение</h2>
       <nav class="gisogd-home-links" aria-label="Обучение">
         <a href="training/">Программа обучения работе в ГИСОГД</a>
         <a href="training/webinars-1-5/">Вебинары 1–5</a>
