@@ -45,6 +45,9 @@ plugins:
   - search:
       lang: ru
 
+hooks:
+  - hooks/readability.py
+
 markdown_extensions:
   - admonition
   - attr_list

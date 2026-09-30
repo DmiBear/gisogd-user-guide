@@ -29,38 +29,38 @@
 
 - «Точкой» — навести курсор на нужный объект и щелкнуть левой кнопкой мыши (рисунок 21);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 21 — Объект «Точка».](../assets/images/gisogd/figure-021.jpg)
-  <figcaption>Рисунок 21 — Объект «Точка».</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 21 — Объект «Точка».](../assets/images/gisogd/figure-021.jpg)
+      <figcaption>Рисунок 21 — Объект «Точка».</figcaption>
+    </figure>
 
 - «Прямоугольник» — нажать левую кнопку мыши на карте и, не отпуская ее, переместить курсор, чтобы задать прямоугольную область выбора (рисунок 22);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 22 — Объект «Прямоугольник».](../assets/images/gisogd/figure-022.jpg)
-  <figcaption>Рисунок 22 — Объект «Прямоугольник».</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 22 — Объект «Прямоугольник».](../assets/images/gisogd/figure-022.jpg)
+      <figcaption>Рисунок 22 — Объект «Прямоугольник».</figcaption>
+    </figure>
 
 - «Многоугольник» — последовательно нажать левую кнопку мыши в нужных точках, чтобы задать область выбора (рисунок 23);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 23 — Объект «Многоугольник».](../assets/images/gisogd/figure-023.jpg)
-  <figcaption>Рисунок 23 — Объект «Многоугольник».</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 23 — Объект «Многоугольник».](../assets/images/gisogd/figure-023.jpg)
+      <figcaption>Рисунок 23 — Объект «Многоугольник».</figcaption>
+    </figure>
 
 - «Окружность» — нажать левую кнопку мыши на карте и, не отпуская ее, переместить курсор, чтобы задать область выбора в форме окружности (рисунок 24);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 24 — Объект «Окружность».](../assets/images/gisogd/figure-024.jpg)
-  <figcaption>Рисунок 24 — Объект «Окружность».</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 24 — Объект «Окружность».](../assets/images/gisogd/figure-024.jpg)
+      <figcaption>Рисунок 24 — Объект «Окружность».</figcaption>
+    </figure>
 
 - «Поиск пересечений» — нарисовать многоугольник последовательными щелчками левой кнопки мыши. Система выберет слои, контуры которых пересекают нарисованный многоугольник или находятся внутри него. Список выбранных слоев отобразится в информационном окне (рисунок 25).
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 25 — Поиск пересечений.](../assets/images/gisogd/figure-025.png)
-  <figcaption>Рисунок 25 — Поиск пересечений.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 25 — Поиск пересечений.](../assets/images/gisogd/figure-025.png)
+      <figcaption>Рисунок 25 — Поиск пересечений.</figcaption>
+    </figure>
 
 Выбранный объект отображается на карте голубым цветом. Сведения о выбранном объекте отображаются на панели слоев во вкладке «Свойства». Вкладка «Свойства» расположена на той же панели, что и список слоев, и выделена на рисунке 26 красной рамкой. Состав сведений во вкладке зависит от вида выбранного объекта.
 
@@ -91,17 +91,17 @@
 
 4. если требуется измерить расстояние по ломаной линии, фиксировать щелчком левой кнопки мыши каждый поворот, последовательно перемещая курсор вдоль линии. Измеряемое расстояние будет отображаться синей линией. Если необходимо измерить расстояние по прямой линии, пропустить этот пункт и перейти к следующему (рисунок 27);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 27 — Измерение расстояния.](../assets/images/gisogd/figure-027.jpg)
-  <figcaption>Рисунок 27 — Измерение расстояния.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 27 — Измерение расстояния.](../assets/images/gisogd/figure-027.jpg)
+      <figcaption>Рисунок 27 — Измерение расстояния.</figcaption>
+    </figure>
 
 5. зафиксировать конечную точку двойным щелчком левой кнопки мыши. В месте фиксации конечной точки отобразится информационная метка с результатом измерения (рисунок 28).
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 28 — Измерение расстояния.](../assets/images/gisogd/figure-028.jpg)
-  <figcaption>Рисунок 28 — Измерение расстояния.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 28 — Измерение расстояния.](../assets/images/gisogd/figure-028.jpg)
+      <figcaption>Рисунок 28 — Измерение расстояния.</figcaption>
+    </figure>
 
 ## 4.5.2.5 Измерение площади
 
@@ -117,17 +117,17 @@
 
 5. продолжая последовательно перемещать курсор мыши к каждому углу фигуры и фиксируя точки щелчком левой кнопки мыши, обвести весь объект на карте (рисунок 29);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 29 — Измерение площади.](../assets/images/gisogd/figure-029.jpg)
-  <figcaption>Рисунок 29 — Измерение площади.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 29 — Измерение площади.](../assets/images/gisogd/figure-029.jpg)
+      <figcaption>Рисунок 29 — Измерение площади.</figcaption>
+    </figure>
 
 6. после фиксации всех углов вернуть курсор мыши в первую точку и двойным щелчком левой кнопки мыши завершить построение контура. В центре фигуры появится информационная метка с результатом измерения (рисунок 30).
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 30 — Измерение площади.](../assets/images/gisogd/figure-030.jpg)
-  <figcaption>Рисунок 30 — Измерение площади.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 30 — Измерение площади.](../assets/images/gisogd/figure-030.jpg)
+      <figcaption>Рисунок 30 — Измерение площади.</figcaption>
+    </figure>
 
 ## 4.5.2.6 Очистка результатов измерений
 

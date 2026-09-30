@@ -68,17 +68,17 @@
 
 - «Строка/текст» — позволяет вносить произвольный текст (рисунок 12);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 12 — Строка/Текст.](../assets/images/gisogd/figure-012.png)
-  <figcaption>Рисунок 12 — Строка/Текст.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 12 — Строка/Текст.](../assets/images/gisogd/figure-012.png)
+      <figcaption>Рисунок 12 — Строка/Текст.</figcaption>
+    </figure>
 
 - «Дата» — выбрать дату документа с помощью календаря (рисунок 13);
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 13 — Дата.](../assets/images/gisogd/figure-013.png)
-  <figcaption>Рисунок 13 — Дата.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 13 — Дата.](../assets/images/gisogd/figure-013.png)
+      <figcaption>Рисунок 13 — Дата.</figcaption>
+    </figure>
 
 - «Целое» — ­позволяет вносить только целое числовое значение;
 
@@ -86,17 +86,17 @@
 
 - «Одиночный выбор из списка» (рисунок 14) — значение выбирается из выпадающего списка ![](../assets/images/ui/docx-image23.png){ .ui-icon }. Для поиска необходимого значения ввести часть текста и нажать клавишу Enter. Для удаления выбранного значения нажать клавишу ![](../assets/images/ui/docx-image24.png){ .ui-icon } в правой части поля;
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 14 — Одиночный выбор из списка.](../assets/images/gisogd/figure-014.png)
-  <figcaption>Рисунок 14 — Одиночный выбор из списка.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 14 — Одиночный выбор из списка.](../assets/images/gisogd/figure-014.png)
+      <figcaption>Рисунок 14 — Одиночный выбор из списка.</figcaption>
+    </figure>
 
 - «Множественный выбор из списка» (рисунок 15) — работает аналогично одиночному выбору, поддерживает поиск. Для удаления одного значения нажать кнопку ![](../assets/images/ui/docx-image24.png){ .ui-icon } рядом с ним, для удаления всех значений — кнопку ![](../assets/images/ui/docx-image24.png){ .ui-icon } в правой части поля;
 
-<figure class="doc-figure" markdown="span">
-  ![Рисунок 15 — Множественный выбор из списка.](../assets/images/gisogd/figure-015.png)
-  <figcaption>Рисунок 15 — Множественный выбор из списка.</figcaption>
-</figure>
+    <figure class="doc-figure" markdown="span">
+      ![Рисунок 15 — Множественный выбор из списка.](../assets/images/gisogd/figure-015.png)
+      <figcaption>Рисунок 15 — Множественный выбор из списка.</figcaption>
+    </figure>
 
 - «Флажок» — позволяет установить или снять отметку для учета определенного параметра. Для изменения состояния флажка нажать левой кнопкой мыши в поле флажка.
 
