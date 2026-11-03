@@ -1,9 +1,9 @@
 {
-  "documentation_revision": "2026.11.03.4",
+  "documentation_revision": "2026.11.03.5",
   "editorial_review_date": "2026-11-03",
   "source": "Existing GISOGD guide, its 150 illustrations and source user manual sections 1.1–1.5, 2.1, 4.3–4.5.2.12, 5.2–5.3.2, 5.4.3.4 and 5.4.13",
   "ui_version": null,
   "ui_version_status": "not-confirmed-in-published-source",
   "runtime_verified": false,
-  "scope": "Source-based reader orientation and neutral technical wording; no reader-facing revision date or training section on About; expanded training title and beta note; redundant homepage jump links removed; consistent System composition label; existing procedures, media, figure order, glossary and image viewer preserved; not application acceptance testing"
+  "scope": "Exact user-approved homepage purpose paragraph; stronger description contrast and readable spacing; blue divider before the catalogue; administrator-contact warning replacing the applicability text with its bookmark preserved; existing procedures, media, figure order, glossary and image viewer preserved; not application acceptance testing"
 }

@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from check_docs import HOME_TITLE, ROOT, Page, check_built, check_editorial_tone, check_home, first_mentions, validate_figures
+from check_docs import HOME_PURPOSE, HOME_TITLE, ROOT, Page, check_built, check_editorial_tone, check_home, first_mentions, validate_figures
 
 
 class GuideChecks(unittest.TestCase):
@@ -18,6 +18,19 @@ class GuideChecks(unittest.TestCase):
     def test_description_cannot_be_removed(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertTrue(check_home(source.replace('class="gisogd-home__description"', 'class="missing-description"')))
+
+    def test_user_approved_purpose_cannot_be_replaced(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace(HOME_PURPOSE, "Произвольное описание")))
+
+    def test_description_divider_is_required(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace('<hr class="gisogd-home-divider">', '')))
+
+    def test_divider_must_precede_catalogue(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        source = source.replace('<hr class="gisogd-home-divider">', '')
+        self.assertTrue(check_home(source + '<hr class="gisogd-home-divider">'))
 
     def test_missing_registry_link(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")

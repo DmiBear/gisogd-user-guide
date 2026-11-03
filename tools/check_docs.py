@@ -14,6 +14,7 @@ FIGURE = re.compile(r'<figure class="doc-figure".*?</figure>', re.S)
 IMAGE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 CAPTION = re.compile(r'<figcaption>(.*?)</figcaption>', re.S)
 HOME_TITLE = 'Руководство пользователя по системе "Государственная информационная система обеспечения градостроительной деятельности"'
+HOME_PURPOSE = 'Система предназначена для сбора, учёта, хранения и размещения градостроительных сведений, документов и материалов. Система используется органами исполнительной власти и местного самоуправления при ведении реестров и предоставлении государственных и муниципальных услуг.'
 
 
 def check_home(source):
@@ -23,6 +24,12 @@ def check_home(source):
     description = re.search(r'<div class="gisogd-home__description"[^>]*>(.*?)</div>', source, re.S)
     if not description or len(re.sub(r"\s+", " ", description[1]).strip()) < 150:
         errors.append("Homepage must explain the system purpose and guide scope")
+    if not description or HOME_PURPOSE not in description[1]:
+        errors.append("Homepage must preserve the user-approved purpose paragraph")
+    divider = re.search(r'<hr class="gisogd-home-divider"\s*/?>', source)
+    catalogue = source.find('<div class="gisogd-catalog">')
+    if not description or not divider or not (description.end() < divider.start() < catalogue):
+        errors.append("Blue divider must separate the description from the catalogue")
     for required in ('href="start-here/"', 'href="quickstart/"', 'href="gisogd/requests/"', 'href="gisogd/document-placement/"', 'href="operations/map/"', 'href="introduction/#15"', 'href="reference/"'):
         if required not in source:
             errors.append(f"Homepage instruction/context missing: {required}")

@@ -27,7 +27,10 @@ class EditorialChecks(unittest.TestCase):
         self.assertNotIn("ГИСОГД", source)
         self.assertNotIn("## Программа обучения", source)
         self.assertIn("{ #applicability }", source)
-        self.assertIn("Номер сборки", source)
+        self.assertNotIn("Номер сборки", source)
+        notice = source.split("## Обращение к администраторам системы { #applicability }", 1)[1].split("## Автор", 1)[0].strip()
+        self.assertEqual(notice, "Если у вас возникли вопросы по работе в Системе или технические сложности, обратитесь к администраторам системы.")
+        self.assertIn('[«Обращение к администраторам системы»](about.md#applicability)', read("docs/help.md"))
         for path in (ROOT / "docs").rglob("*.md"):
             self.assertIsNone(re.search(r"дата (?:последней )?редакции|дата последнего обновления", path.read_text(encoding="utf-8"), re.I), path.name)
 
