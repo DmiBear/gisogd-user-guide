@@ -475,6 +475,13 @@ body {
   }
 
   .md-typeset { font-size: 0.9rem; }
+
+  .md-content__inner:has(.training-status) > h1 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+  }
 }
 
 /* Двухколоночная справка читается на телефоне без прокрутки вправо. */

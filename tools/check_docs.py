@@ -27,12 +27,14 @@ def check_home(source):
         if required not in source:
             errors.append(f"Homepage instruction/context missing: {required}")
     for group in ("applications", "registries", "operations", "map", "getting-started", "training"):
-        if f'<h2 id="{group}">' not in source or f'href="#{group}"' not in source:
+        if f'<h2 id="{group}">' not in source:
             errors.append(f"Homepage catalogue group missing: {group}")
     for number in range(1, 19):
         target = "section-13/" if number == 13 else f"section-{number}/"
         if f'href="gisogd/registries/{target}"' not in source:
             errors.append(f"Homepage registry link missing: {number}")
+    if "gisogd-home-nav" in source:
+        errors.append("Do not restore the redundant homepage jump-link row")
     if any(token in source for token in ("gisogd-button", "gisogd-task-card", "gisogd-start-strip", "gisogd-eyebrow")):
         errors.append("Homepage must remain a technical catalogue, not a promotional landing page")
     return errors

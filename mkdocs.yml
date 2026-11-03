@@ -90,7 +90,7 @@ nav:
       - Навигация и табличные формы: operations/navigation-and-tables.md
       - Записи и карточки: operations/records.md
       - Работа с картой: operations/map.md
-  - Состав ГИСОГД:
+  - Состав системы:
       - Обзор: gisogd/index.md
       - Разделы и документы: gisogd/overview.md
       - Регистрация заявок: gisogd/requests.md

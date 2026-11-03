@@ -32,21 +32,6 @@
 .gisogd-home__description p { margin: 0; }
 .gisogd-home__description p + p { margin-top: 0.5em; }
 
-.gisogd-home-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.5rem;
-  margin-bottom: 1.8rem;
-  padding: 0 0 0.85rem;
-  border-bottom: 1px solid var(--gisogd-line);
-}
-
-.gisogd-home-nav a {
-  padding-block: 0.2rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
 .gisogd-catalog {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
@@ -111,7 +96,7 @@
   overflow-wrap: break-word;
 }
 
-.gisogd-home :is(.gisogd-catalog-links, .gisogd-home-nav) a:hover { text-decoration: underline; }
+.gisogd-home .gisogd-catalog-links a:hover { text-decoration: underline; }
 .gisogd-catalog-section__reference {
   display: inline-block;
   margin-top: 0.8rem;
@@ -135,8 +120,6 @@
 @media (max-width: 59.9844em) {
   .gisogd-catalog { grid-template-columns: 1fr; gap: 1.8rem; }
   .gisogd-catalog__column { gap: 1.8rem; }
-  .gisogd-home-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.3rem 1rem; }
-  .gisogd-home-nav a { font-size: 0.8rem; }
 }
 
 @media (max-width: 44.9844em) {

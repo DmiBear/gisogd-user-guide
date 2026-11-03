@@ -23,6 +23,14 @@ class GuideChecks(unittest.TestCase):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertTrue(check_home(source.replace('href="gisogd/registries/section-8/"', 'href="wrong/"')))
 
+    def test_catalogue_headings_are_still_required(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace('<h2 id="applications">', '<h2 id="wrong">')))
+
+    def test_redundant_homepage_jump_row_is_not_restored(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source + '<nav class="gisogd-home-nav"></nav>'))
+
     def test_landing_page_regression(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertTrue(check_home(source + '<div class="gisogd-task-card"></div>'))

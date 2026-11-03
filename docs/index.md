@@ -16,15 +16,6 @@ hide:
 
 </div>
 
-<nav class="gisogd-home-nav" aria-label="Разделы на главной странице">
-  <a href="#applications">Журнал заявлений</a>
-  <a href="#registries">Реестры документов</a>
-  <a href="#operations">Основные операции</a>
-  <a href="#map">Работа с картой</a>
-  <a href="#getting-started">Начало работы</a>
-  <a href="#training">Обучение</a>
-</nav>
-
 <div class="gisogd-catalog">
   <div class="gisogd-catalog__column">
     <section class="gisogd-catalog-section" aria-labelledby="applications">
