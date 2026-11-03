@@ -1,0 +1,1505 @@
+{
+  "schema": 1,
+  "figures": [
+    {
+      "id": "GIS-FIG-001",
+      "number": 1,
+      "page": "getting-started.md",
+      "asset": "assets/images/gisogd/figure-001.png",
+      "sha256": "af62e6d985f4f063eea9cb3bb52ac7a6ec015f991d998ca2bd0bfbebec55a614",
+      "caption": "Рисунок 1 — Авторизация в системе.",
+      "alt": "Рисунок 1 — Авторизация в системе.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-002",
+      "number": 2,
+      "page": "getting-started.md",
+      "asset": "assets/images/gisogd/figure-002.png",
+      "sha256": "43ecf2d2770676815d4961b57fd60a48b980d872c68ca2eac22dc579545ae083",
+      "caption": "Рисунок 2 — Некорректная авторизация.",
+      "alt": "Рисунок 2 — Некорректная авторизация.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-003",
+      "number": 3,
+      "page": "getting-started.md",
+      "asset": "assets/images/gisogd/figure-003.png",
+      "sha256": "ca129b2eaee8e821e57716e240e21b8150d2147a541caf453f27a708398a8b09",
+      "caption": "Рисунок 3 — Корректный вход.",
+      "alt": "Рисунок 3 — Корректный вход.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-004",
+      "number": 4,
+      "page": "operations/navigation-and-tables.md",
+      "asset": "assets/images/gisogd/figure-004.jpg",
+      "sha256": "495b5e998d0dd2c96f5e3b029f261ef74f4097e15c515ad95fbc82a6081640e0",
+      "caption": "Рисунок 4 — Открытие пункта меню.",
+      "alt": "Рисунок 4 — Открытие пункта меню.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-005",
+      "number": 5,
+      "page": "operations/navigation-and-tables.md",
+      "asset": "assets/images/gisogd/figure-005.png",
+      "sha256": "40f9a53e30eb51a728aceab3f8230fcad623de50771d030c2c9f88b943904a7e",
+      "caption": "Рисунок 5 — Работа с группировочным пунктом меню.",
+      "alt": "Рисунок 5 — Работа с группировочным пунктом меню.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-006",
+      "number": 6,
+      "page": "operations/navigation-and-tables.md",
+      "asset": "assets/images/gisogd/figure-006.png",
+      "sha256": "9f106394051a938e5c95b10d767d93504f0060b63d572d6cd834225193f9b404",
+      "caption": "Рисунок 6 — Панель вкладок.",
+      "alt": "Рисунок 6 — Панель вкладок.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-007",
+      "number": 7,
+      "page": "operations/navigation-and-tables.md",
+      "asset": "assets/images/gisogd/figure-007.png",
+      "sha256": "db528f199ed556150ba8d2e92780ce104be92922df35dbe99852e168cc928792",
+      "caption": "Рисунок 7 — Типовые элементы табличной формы.",
+      "alt": "Рисунок 7 — Типовые элементы табличной формы.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-008",
+      "number": 8,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-008.png",
+      "sha256": "74c5c7deb993ac4538a26e7428400f3055165f1ba42bc1a4d96afed8dd5a0260",
+      "caption": "Рисунок 8 — Поле поиска.",
+      "alt": "Рисунок 8 — Поле поиска.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-009",
+      "number": 9,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-009.jpeg",
+      "sha256": "7a220d3a0d0afe1a6fd9e0ae4148c68f06a83809235f648a16263b047ec7fba8",
+      "caption": "Рисунок 9 — Фильтрация записей.",
+      "alt": "Рисунок 9 — Фильтрация записей.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-010",
+      "number": 10,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-010.png",
+      "sha256": "0b597cf9ec0f5532ece2da07d030b84020b4d26f08bdb906ad3e7d4f721e7fcb",
+      "caption": "Рисунок 10 — Настройка фильтрации записей.",
+      "alt": "Рисунок 10 — Настройка фильтрации записей.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-011",
+      "number": 11,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-011.jpg",
+      "sha256": "e690167828e8e0e2238c3acf041e73af223558c517c8ab9a7c8253b40376b26d",
+      "caption": "Рисунок 11 — Основные элементы карточки.",
+      "alt": "Рисунок 11 — Основные элементы карточки.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-012",
+      "number": 12,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-012.png",
+      "sha256": "946b4a864114d864ed148f6cfe28c13778b8f9ec712ab0495d723eba93a225ad",
+      "caption": "Рисунок 12 — Строка/Текст.",
+      "alt": "Рисунок 12 — Строка/Текст.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-013",
+      "number": 13,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-013.png",
+      "sha256": "9b0e0663135dd5d63b3b68c31b8071ab59d5940fb9e308874c4e9649d099925d",
+      "caption": "Рисунок 13 — Дата.",
+      "alt": "Рисунок 13 — Дата.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-014",
+      "number": 14,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-014.png",
+      "sha256": "cdd7f3ca0dc8cb282867661929b3777e343ee80042dfd77445041b6b6aea3aef",
+      "caption": "Рисунок 14 — Одиночный выбор из списка.",
+      "alt": "Рисунок 14 — Одиночный выбор из списка.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-015",
+      "number": 15,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-015.png",
+      "sha256": "bc4019cd9eb4717eb22412a15b9533d2cd6060d65373c9bc27bcee2f522c9aa6",
+      "caption": "Рисунок 15 — Множественный выбор из списка.",
+      "alt": "Рисунок 15 — Множественный выбор из списка.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-016",
+      "number": 16,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-016.png",
+      "sha256": "0f4afcbe1bf98092c5ae607e857adbaa090f2f7297a7a30a8b6bb2caeae90256",
+      "caption": "Рисунок 16 — Связанные реестры.",
+      "alt": "Рисунок 16 — Связанные реестры.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-017",
+      "number": 17,
+      "page": "operations/records.md",
+      "asset": "assets/images/gisogd/figure-017.png",
+      "sha256": "8fd33669de54775e33c95a92193a9f88d1efa530d65c9e1f2c6d453fa384908c",
+      "caption": "Рисунок 17 — Вкладка «Приложенные файлы».",
+      "alt": "Рисунок 17 — Вкладка «Приложенные файлы».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-018",
+      "number": 18,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-018.png",
+      "sha256": "18888f45dc5b9372cd5db32eca98fcf62c16d3e8504868b57ca223a5e283d4ed",
+      "caption": "Рисунок 18 — Панель инструментов карты.",
+      "alt": "Рисунок 18 — Панель инструментов карты.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-019",
+      "number": 19,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-019.png",
+      "sha256": "2121611434ed8b999c49c73a265c9131c3e52bd80d07cf5feb67cb5c3a5840a3",
+      "caption": "Рисунок 19 — Панель управления слоями.",
+      "alt": "Рисунок 19 — Панель управления слоями.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-020",
+      "number": 20,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-020.png",
+      "sha256": "72879d541d32cfeed2703e082b5ca526502fe3dfcd0a15eacbb4f438a6e43039",
+      "caption": "Рисунок 20 — Кнопка «Выбор объекта».",
+      "alt": "Рисунок 20 — Кнопка «Выбор объекта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-021",
+      "number": 21,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-021.jpg",
+      "sha256": "6ee3ba0942851c598318b59a642e1b7f159e342c3782a4c0c06d64447ee208cb",
+      "caption": "Рисунок 21 — Объект «Точка».",
+      "alt": "Рисунок 21 — Объект «Точка».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-022",
+      "number": 22,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-022.jpg",
+      "sha256": "e2ad67ae96b32640d875b43c3050aad17f0f29a6971448d303746c3b7d5de558",
+      "caption": "Рисунок 22 — Объект «Прямоугольник».",
+      "alt": "Рисунок 22 — Объект «Прямоугольник».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-023",
+      "number": 23,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-023.jpg",
+      "sha256": "a43aee14bfd7b204a35d7bc5468cbb0cf56214fecf2223cad3a26c861ba61381",
+      "caption": "Рисунок 23 — Объект «Многоугольник».",
+      "alt": "Рисунок 23 — Объект «Многоугольник».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-024",
+      "number": 24,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-024.jpg",
+      "sha256": "87549776439d2d3950cd899371588eb8b89c7abeec99c3220469b47fc6ba6811",
+      "caption": "Рисунок 24 — Объект «Окружность».",
+      "alt": "Рисунок 24 — Объект «Окружность».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-025",
+      "number": 25,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-025.png",
+      "sha256": "b412f169f00f4dd4be6dd70b76bba8ad7e7948b766c6264f8b9702c61a861145",
+      "caption": "Рисунок 25 — Поиск пересечений.",
+      "alt": "Рисунок 25 — Поиск пересечений.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-026",
+      "number": 26,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-026.png",
+      "sha256": "9b28e25b03d68740363c37e62d5303f6237ca12952265f28444ed91d7218da29",
+      "caption": "Рисунок 26 — Отображение свойств выбранного объекта.",
+      "alt": "Рисунок 26 — Отображение свойств выбранного объекта.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-027",
+      "number": 27,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-027.jpg",
+      "sha256": "b2170bf4d904e93d27ca5e0db1b8e42fbb401b11c6fc26a11572868c6c2bf342",
+      "caption": "Рисунок 27 — Измерение расстояния.",
+      "alt": "Рисунок 27 — Измерение расстояния.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-028",
+      "number": 28,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-028.jpg",
+      "sha256": "a24be61bb14c4df31b73f80a96d3c24f1daf4cfd09682d2e8bd18493dc4cab3d",
+      "caption": "Рисунок 28 — Измерение расстояния.",
+      "alt": "Рисунок 28 — Измерение расстояния.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-029",
+      "number": 29,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-029.jpg",
+      "sha256": "22b4d11f6bea509b20f3b9faa1a7e1d8d07c516b9078d5f47c35c7dbb1649439",
+      "caption": "Рисунок 29 — Измерение площади.",
+      "alt": "Рисунок 29 — Измерение площади.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-030",
+      "number": 30,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-030.jpg",
+      "sha256": "9b5acf4a5ea249cee46fcd7967dd6b67ad003bc20ea6a481b9797fe43335d53b",
+      "caption": "Рисунок 30 — Измерение площади.",
+      "alt": "Рисунок 30 — Измерение площади.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-031",
+      "number": 31,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-031.png",
+      "sha256": "509b08781ea37a10fc63029d84db28628fca76cc9c7299eee17d991ae869463a",
+      "caption": "Рисунок 31 — Кнопка «Поиск».",
+      "alt": "Рисунок 31 — Кнопка «Поиск».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-032",
+      "number": 32,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-032.png",
+      "sha256": "a7cc8a629024ef52b9e799c7f6b9fd03a87c891d0a3cd4d6cd83d9c3c48d7ac6",
+      "caption": "Рисунок 32 — Поиск объекта по координатам.",
+      "alt": "Рисунок 32 — Поиск объекта по координатам.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-033",
+      "number": 33,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-033.png",
+      "sha256": "584d56e0a6e8027869bca5109bf5347ea2f0a25294f4a311dba7f1e75554c6a7",
+      "caption": "Рисунок 33 — Поиск объекта по адресу.",
+      "alt": "Рисунок 33 — Поиск объекта по адресу.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-034",
+      "number": 34,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-034.png",
+      "sha256": "3edf9b541b489ca2fa05993ecdd07ee04d81241153f3f636f9b4e11204a32270",
+      "caption": "Рисунок 34 — Рисование геометрии.",
+      "alt": "Рисунок 34 — Рисование геометрии.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-035",
+      "number": 35,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-035.png",
+      "sha256": "17f83b1317e6624599135242b6a2f10f32f97f68085c9a477a11a8eedf9184d5",
+      "caption": "Рисунок 35 — Выбор системы координат для ввода геометрии по координатам.",
+      "alt": "Рисунок 35 — Выбор системы координат для ввода геометрии по координатам.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-036",
+      "number": 36,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-036.jpg",
+      "sha256": "16977abbddab64766dae73b0cf42c73bec904580376438a4e840f5faeb664351",
+      "caption": "Рисунок 36 — Печать карты.",
+      "alt": "Рисунок 36 — Печать карты.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-037",
+      "number": 37,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-037.png",
+      "sha256": "1b15e742941445ad30f2748045e6eed7a3d049f68a6579a1a0687840447d2127",
+      "caption": "Рисунок 37 — Импорт геометрии из файла.",
+      "alt": "Рисунок 37 — Импорт геометрии из файла.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-038",
+      "number": 38,
+      "page": "operations/map.md",
+      "asset": "assets/images/gisogd/figure-038.png",
+      "sha256": "067d92c9da7772a1c3b2970556f141bfddfed92df7dd37b4f710e2341762e12e",
+      "caption": "Рисунок 38 — Импорт из текстового формата WKT.",
+      "alt": "Рисунок 38 — Импорт из текстового формата WKT.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-039",
+      "number": 39,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-039.png",
+      "sha256": "a4439967de0b339de2848cb4ccba4bf2f2e20ec4256d326d0b11199b734b101c",
+      "caption": "Рисунок 39 — Меню «Поступившие заявки».",
+      "alt": "Рисунок 39 — Меню «Поступившие заявки».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-040",
+      "number": 40,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-040.jpg",
+      "sha256": "5151d33e7a78d2e6e60805d34bddb73b61636db5810c728b5340b89cb8004d7b",
+      "caption": "Рисунок 40 — Открытие журнала поступивших заявок через главную страницу ГИСОГД.",
+      "alt": "Рисунок 40 — Открытие журнала поступивших заявок через главную страницу ГИСОГД.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-041",
+      "number": 41,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-041.jpg",
+      "sha256": "1432be854406617b24d41b45da75820a795c03d22221e27ce43bd597cfdb3cf8",
+      "caption": "Рисунок 41 — Журнал поступивших заявок.",
+      "alt": "Рисунок 41 — Журнал поступивших заявок.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-042",
+      "number": 42,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-042.png",
+      "sha256": "d6213989af7d86fce1af155b616b41708a99940d3bc4d20f5d38f199683c167e",
+      "caption": "Рисунок 42 — Сведения о поступившей заявке.",
+      "alt": "Рисунок 42 — Сведения о поступившей заявке.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-043",
+      "number": 43,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-043.jpg",
+      "sha256": "f7adfbbc7b9f74aad6727fa0bf02b5717e07fb17b525064ac20b870bcafa5177",
+      "caption": "Рисунок 43 — Карточка «Выдача разрешения на строительство».",
+      "alt": "Рисунок 43 — Карточка «Выдача разрешения на строительство».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-044",
+      "number": 44,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-044.jpg",
+      "sha256": "7ca5a7da29aa4319a4d88a2f798cb3e4422994f2eaa157f4f60ab00b2bffe434",
+      "caption": "Рисунок 44 — Новое разрешение на строительство.",
+      "alt": "Рисунок 44 — Новое разрешение на строительство.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-045",
+      "number": 45,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-045.png",
+      "sha256": "fd0217ac494ad8a1a730db46653d03a6b53d8cf735dc592fd5b680c5ef218346",
+      "caption": "Рисунок 45 — Указание статуса нового заявления.",
+      "alt": "Рисунок 45 — Указание статуса нового заявления.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-046",
+      "number": 46,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-046.png",
+      "sha256": "033e23b427e07b7019693ecd8191f3c640b8f3d341ee7f92e2de27b41f7cb730",
+      "caption": "Рисунок 46 — Реквизиты заявки.",
+      "alt": "Рисунок 46 — Реквизиты заявки.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-047",
+      "number": 47,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-047.png",
+      "sha256": "6b188200df05e234333544675cfbdbf9d2041a99290e646441a0baf14a02e16e",
+      "caption": "Рисунок 47 — Данные юридического лица.",
+      "alt": "Рисунок 47 — Данные юридического лица.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-048",
+      "number": 48,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-048.png",
+      "sha256": "8bdc6979c1d3cdcc01da9116d6b90a676f949c848dc8d1bbcc8d2d5dbe460167",
+      "caption": "Рисунок 48 — Вкладка «Связь с делами о земельных участках».",
+      "alt": "Рисунок 48 — Вкладка «Связь с делами о земельных участках».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-049",
+      "number": 49,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-049.png",
+      "sha256": "435071ad8bcd79cbafcbb81587bac5739a865a922a0e268e8caaa73e6b24371a",
+      "caption": "Рисунок 49 — Инструменты вкладки «Дела о земельных участках».",
+      "alt": "Рисунок 49 — Инструменты вкладки «Дела о земельных участках».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-050",
+      "number": 50,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-050.png",
+      "sha256": "58f3807af9555827696f233a78d618949ed7e6c6f577fdd987145712859c3b7e",
+      "caption": "Рисунок 50 — Таблица земельных участков.",
+      "alt": "Рисунок 50 — Таблица земельных участков.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-051",
+      "number": 51,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-051.jpg",
+      "sha256": "a4e003a92863e5448c691be83a53fe697d4234b12a981c2b175b0a940ca9a3f0",
+      "caption": "Рисунок 51 — Вкладка «Приложение».",
+      "alt": "Рисунок 51 — Вкладка «Приложение».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-052",
+      "number": 52,
+      "page": "gisogd/requests.md",
+      "asset": "assets/images/gisogd/figure-052.jpg",
+      "sha256": "a4e003a92863e5448c691be83a53fe697d4234b12a981c2b175b0a940ca9a3f0",
+      "caption": "Рисунок 52 — Предпросмотр файла в системе.",
+      "alt": "Рисунок 52 — Предпросмотр файла в системе.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-053",
+      "number": 53,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-053.png",
+      "sha256": "fc85285d6b54675d1e16ff4c0ee9e7eb7154167f9bcd11832c1ad811b3c78cd7",
+      "caption": "Рисунок 53 — Меню для открытия реестров по разделам ГИСОГД.",
+      "alt": "Рисунок 53 — Меню для открытия реестров по разделам ГИСОГД.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-054",
+      "number": 54,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-054.png",
+      "sha256": "832aec2a7049f1b8ecf55a91d465567f6caa093d8c9b85a82f28628e58c48169",
+      "caption": "Рисунок 54 — Список документов ГИСОГД в записи реестра «Дела о земельных участках».",
+      "alt": "Рисунок 54 — Список документов ГИСОГД в записи реестра «Дела о земельных участках».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-055",
+      "number": 55,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-055.png",
+      "sha256": "de322f09fecd1be0d508b1b216d0f06099e174e62de6d45411dc8c2efaac8266",
+      "caption": "Рисунок 55 — Раздел «Основное» в карточке «Документы ГИСОГД».",
+      "alt": "Рисунок 55 — Раздел «Основное» в карточке «Документы ГИСОГД».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-056",
+      "number": 56,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-056.jpg",
+      "sha256": "03eb5c40d0d5c8a87fe0e07908b4395aadb05b713e333d90bb5171dc2166209a",
+      "caption": "Рисунок 56 — Вкладка «Приложенные файлы».",
+      "alt": "Рисунок 56 — Вкладка «Приложенные файлы».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-057",
+      "number": 57,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-057.png",
+      "sha256": "6e33dd1c50a13070889380526c4636210dbe38bb3088de47904b55ffeb3b592b",
+      "caption": "Рисунок 57 — Вкладка «Электронная подпись».",
+      "alt": "Рисунок 57 — Вкладка «Электронная подпись».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-058",
+      "number": 58,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-058.jpg",
+      "sha256": "afe34f324ad217a066bbd16c8c9813ae165b6f9a93563b68fa8353c2ec780061",
+      "caption": "Рисунок 58 — Местоположение заявки на размещение в карточке «Документы ГИСОГД».",
+      "alt": "Рисунок 58 — Местоположение заявки на размещение в карточке «Документы ГИСОГД».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-059",
+      "number": 59,
+      "page": "gisogd/document-placement.md",
+      "asset": "assets/images/gisogd/figure-059.jpg",
+      "sha256": "f8a332b8ae662d58bb5286916adab829479618dec5781ee2ca87c0bdd3eacac7",
+      "caption": "Рисунок 59 — Заявка на размещение в ГИСОГД.",
+      "alt": "Рисунок 59 — Заявка на размещение в ГИСОГД.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-060",
+      "number": 60,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-060.png",
+      "sha256": "1d548260867ce6e3f504466766942b3272e5015bcb98ed70212f787027044398",
+      "caption": "Рисунок 60 — Раздел 3. Реестр «Документы территориального планирования муниципальных образований».",
+      "alt": "Рисунок 60 — Раздел 3. Реестр «Документы территориального планирования муниципальных образований».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-061",
+      "number": 61,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-061.png",
+      "sha256": "51a2bb6e95f701696f24d2ebf145401f5559d3caac09ec68e7f27d54507935c2",
+      "caption": "Рисунок 61 — Заполнение сведений по документу территориального планирования.",
+      "alt": "Рисунок 61 — Заполнение сведений по документу территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-062",
+      "number": 62,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-062.jpg",
+      "sha256": "a779dbed51c6761c150e76eec479cc35af4afd43098d523a5f7e0f709655d475",
+      "caption": "Рисунок 62 — Документ территориального планирования.",
+      "alt": "Рисунок 62 — Документ территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-063",
+      "number": 63,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-063.png",
+      "sha256": "6543d09357d50e9a859a9cd53fc26e79d13e59e261dc23fa0f24b080c478c1f8",
+      "caption": "Рисунок 63 — Импорт геометрии из файла.",
+      "alt": "Рисунок 63 — Импорт геометрии из файла.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-064",
+      "number": 64,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-064.png",
+      "sha256": "fb2bc2052e5b4313a4aa7de1e5ee6a1ea50b6af30f6549fdae6742979e2c8416",
+      "caption": "Рисунок 64 — Выбор зоны МСК.",
+      "alt": "Рисунок 64 — Выбор зоны МСК.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-065",
+      "number": 65,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-065.png",
+      "sha256": "1db31a3ff9e42544669943d9783ed1cd39c5fcd59d97a949e86c67171a54fce1",
+      "caption": "Рисунок 65 — Определение зоны.",
+      "alt": "Рисунок 65 — Определение зоны.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-066",
+      "number": 66,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-066.jpg",
+      "sha256": "29caf343afba8912f6f6962f8b25a415eecf76d355f21f14858a2f3e05dfeb50",
+      "caption": "Рисунок 66 — Перечень документов ГИСОГД для документа территориального планирования.",
+      "alt": "Рисунок 66 — Перечень документов ГИСОГД для документа территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-067",
+      "number": 67,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-067.jpg",
+      "sha256": "3b168f782b521572413665e5ea1f11dcd0bcf15058f8d1560d17ee60100adaf5",
+      "caption": "Рисунок 67 — Приложенные к документу ГИСОГД «Генеральный план» файлы.",
+      "alt": "Рисунок 67 — Приложенные к документу ГИСОГД «Генеральный план» файлы.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-068",
+      "number": 68,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-068.jpg",
+      "sha256": "ed25bce7549c2a5b6e63522c6e589b36803417c3c2fe12320d4740404bd34dcb",
+      "caption": "Рисунок 68 — Список функциональных зон в генплане.",
+      "alt": "Рисунок 68 — Список функциональных зон в генплане.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-069",
+      "number": 69,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-069.jpg",
+      "sha256": "c7c34ca3509253e0b756f99c0c322a861455470c0785aaeffe1e05ab22841ed3",
+      "caption": "Рисунок 69 — Карточка добавления типа зоны генерального плана.",
+      "alt": "Рисунок 69 — Карточка добавления типа зоны генерального плана.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-070",
+      "number": 70,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-070.png",
+      "sha256": "ac05ad210771334a78dc6dde78f2032fb04e08ae0904ba7d051e4fafc88a88f4",
+      "caption": "Рисунок 70 — Контуры зоны.",
+      "alt": "Рисунок 70 — Контуры зоны.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-071",
+      "number": 71,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-071.png",
+      "sha256": "ed53bff1cb19e1eb804bc87b7103e2b64a76116a35090cb444c468921998f609",
+      "caption": "Рисунок 71 — Контуры функциональных зон.",
+      "alt": "Рисунок 71 — Контуры функциональных зон.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-072",
+      "number": 72,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-072.png",
+      "sha256": "fd9c4bd2aebe8cef707132eebddfa3bfba1d88e2cb6dc52ed2277f2280a873e2",
+      "caption": "Рисунок 72 — Блок «Загрузка пространственных материалов».",
+      "alt": "Рисунок 72 — Блок «Загрузка пространственных материалов».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-073",
+      "number": 73,
+      "page": "gisogd/registries/section-3.md",
+      "asset": "assets/images/gisogd/figure-073.png",
+      "sha256": "c51c667ae3eb5a711accd3adf4f37317006e3b3f323ea54d75c7fb6a607af9eb",
+      "caption": "Рисунок 73 — Окно «Импорт».",
+      "alt": "Рисунок 73 — Окно «Импорт».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-074",
+      "number": 74,
+      "page": "gisogd/registries/section-4.md",
+      "asset": "assets/images/gisogd/figure-074.png",
+      "sha256": "889bbc489e4940ce82ba350e6d5ea2a825624a3b53b4f5ea0bc15ec8509fdae8",
+      "caption": "Рисунок 74 — Раздел 4. Реестр «Нормативы градостроительного проектирования».",
+      "alt": "Рисунок 74 — Раздел 4. Реестр «Нормативы градостроительного проектирования».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-075",
+      "number": 75,
+      "page": "gisogd/registries/section-4.md",
+      "asset": "assets/images/gisogd/figure-075.png",
+      "sha256": "26efb7eade30e305baf4d0598d19f2e9c1c0096592bd18ce49a3ee91aa294d77",
+      "caption": "Рисунок 75 — Карточка «Нормативы градпроектирования».",
+      "alt": "Рисунок 75 — Карточка «Нормативы градпроектирования».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-076",
+      "number": 76,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-076.png",
+      "sha256": "7fb5de380114a02830c674e8cd8278919a831cf2b3532d9a76567aa92ea630af",
+      "caption": "Рисунок 76 — Раздел 5. Реестр «Градостроительное зонирование».",
+      "alt": "Рисунок 76 — Раздел 5. Реестр «Градостроительное зонирование».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-077",
+      "number": 77,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-077.png",
+      "sha256": "5ea8fc119ce356197e01db2c2b9060cf2d88e0b25cdfacc8636aaea2ce6a3f54",
+      "caption": "Рисунок 77 — Карточка «Градостроительное зонирование».",
+      "alt": "Рисунок 77 — Карточка «Градостроительное зонирование».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-078",
+      "number": 78,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-078.png",
+      "sha256": "ea22a3f89a8553b0184be1fde70f4c0744608faaeacbf444bee719d74005764d",
+      "caption": "Рисунок 78 — Территориальное зонирование.",
+      "alt": "Рисунок 78 — Территориальное зонирование.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-079",
+      "number": 79,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-079.jpg",
+      "sha256": "75b0b94df6b0a0e8efd1983462c35ce8390a303629627ac16479d8fafe5f19d0",
+      "caption": "Рисунок 79 — Территориальная зона.",
+      "alt": "Рисунок 79 — Территориальная зона.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-080",
+      "number": 80,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-080.png",
+      "sha256": "f91aa2c4796b47b96a350e4f305da06f7979fffb4fcfff5dced7ec80a3f5e9f4",
+      "caption": "Рисунок 80 — Градостроительные регламенты.",
+      "alt": "Рисунок 80 — Градостроительные регламенты.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-081",
+      "number": 81,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-081.png",
+      "sha256": "382657efa5e91b9c555b700d37c8b959882a8b35683a4abcbece605fe9e1dfc7",
+      "caption": "Рисунок 81 — «Предельные величины».",
+      "alt": "Рисунок 81 — «Предельные величины».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-082",
+      "number": 82,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-082.png",
+      "sha256": "5599c17f03becc3b65566921b6541c7897d2f74f46d86e1fa35f6789e885f591",
+      "caption": "Рисунок 82 — Вкладка «Контуры зоны».",
+      "alt": "Рисунок 82 — Вкладка «Контуры зоны».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-083",
+      "number": 83,
+      "page": "gisogd/registries/section-5.md",
+      "asset": "assets/images/gisogd/figure-083.jpg",
+      "sha256": "c702dfef38cd74edad30f71b601c1b5fbbf1e402074d0fdd7c986f257e6f33f3",
+      "caption": "Рисунок 83 — Карточка «Контуры зон».",
+      "alt": "Рисунок 83 — Карточка «Контуры зон».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-084",
+      "number": 84,
+      "page": "gisogd/registries/section-6.md",
+      "asset": "assets/images/gisogd/figure-084.png",
+      "sha256": "72912af4800e4aa7a1dc587f7876d5168fcaff054f0b1e1d30a53d87b4b70647",
+      "caption": "Рисунок 84 — Раздел 6. Реестр «Правила благоустройства территории».",
+      "alt": "Рисунок 84 — Раздел 6. Реестр «Правила благоустройства территории».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-085",
+      "number": 85,
+      "page": "gisogd/registries/section-6.md",
+      "asset": "assets/images/gisogd/figure-085.png",
+      "sha256": "1853734820cbe6f6d2aaacda6bb736feef4e5222f0509c549c6769928b17d2c3",
+      "caption": "Рисунок 85 — Карточка «Правила благоустройства территории».",
+      "alt": "Рисунок 85 — Карточка «Правила благоустройства территории».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-086",
+      "number": 86,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-086.png",
+      "sha256": "cb203cb2818d26dec90cb7481fcd4476850ddfc4553f761020ed229d60899a61",
+      "caption": "Рисунок 86 — Раздел 7. Реестр «Планировка территории».",
+      "alt": "Рисунок 86 — Раздел 7. Реестр «Планировка территории».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-087",
+      "number": 87,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-087.png",
+      "sha256": "98192d9620ab57bfd327cba3316dc0b539ddd4a3c1a6bcd061b4ff70a4b5d094",
+      "caption": "Рисунок 87 — Карточка «Проект планировки и межевания территории».",
+      "alt": "Рисунок 87 — Карточка «Проект планировки и межевания территории».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-088",
+      "number": 88,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-088.jpg",
+      "sha256": "dacc5c3d86cd00ee501abff3d5314496244ac0a3c6275da613f42aed92535240",
+      "caption": "Рисунок 88 — Статус «Аннулировано» с выбором документа-основания для отмены.",
+      "alt": "Рисунок 88 — Статус «Аннулировано» с выбором документа-основания для отмены.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-089",
+      "number": 89,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-089.png",
+      "sha256": "bf32ae7f9642267028bf83c300701c7ccaa752c7fecd481ddaa1973f532fbf1f",
+      "caption": "Рисунок 89 — Кнопка «Поменять статус в документах ГИСОГД».",
+      "alt": "Рисунок 89 — Кнопка «Поменять статус в документах ГИСОГД».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-090",
+      "number": 90,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-090.jpg",
+      "sha256": "df53e74e018f4a120dc09b347958b37c65a4a2850f8ed991745ffc6ddd424e92",
+      "caption": "Рисунок 90 — Вкладка «Общественные обсуждения».",
+      "alt": "Рисунок 90 — Вкладка «Общественные обсуждения».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-091",
+      "number": 91,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-091.png",
+      "sha256": "3bfb90de883f867e652316dd08f7d71dc7a408c21069c11fea2d43bfe121dcb4",
+      "caption": "Рисунок 91 — Карточка «Общественные обсуждения».",
+      "alt": "Рисунок 91 — Карточка «Общественные обсуждения».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-092",
+      "number": 92,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-092.png",
+      "sha256": "90b5ba91d655e548cc728b4bf2310e8147b11c103bbbdb25cf679869a1d9079d",
+      "caption": "Рисунок 92 — Вкладка «Разделы проекта».",
+      "alt": "Рисунок 92 — Вкладка «Разделы проекта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-093",
+      "number": 93,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-093.jpg",
+      "sha256": "93335421dce4597be25b65b240270776f2f3672f4ac5559eaa147ccb4f3d8952",
+      "caption": "Рисунок 93 — Слои проекта.",
+      "alt": "Рисунок 93 — Слои проекта.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-094",
+      "number": 94,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-094.png",
+      "sha256": "5ac227067e4baded98f90cd1a9f5006838e18c76868c76bc5161d5cd16bc5960",
+      "caption": "Рисунок 94 — Таблица разделов проекта.",
+      "alt": "Рисунок 94 — Таблица разделов проекта.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-095",
+      "number": 95,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-095.png",
+      "sha256": "9aa3492181caee2c6dde2c078c45f26a5aae697e8cdfcf04379b59ee1a4878a3",
+      "caption": "Рисунок 95 — Окно выбора раздела проекта.",
+      "alt": "Рисунок 95 — Окно выбора раздела проекта.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-096",
+      "number": 96,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-096.png",
+      "sha256": "8b118a6a8937d6c43050afbf4f3537de77b5e3dc87631dcb61fa1309365a6d82",
+      "caption": "Рисунок 96 — Карточка «Раздел проекта».",
+      "alt": "Рисунок 96 — Карточка «Раздел проекта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-097",
+      "number": 97,
+      "page": "gisogd/registries/section-7.md",
+      "asset": "assets/images/gisogd/figure-097.jpg",
+      "sha256": "976964a8a3d78da2b422703416679680edb1ba7280bc9bded841ae40ece9a433",
+      "caption": "Рисунок 97 — Карточка «Объект раздела».",
+      "alt": "Рисунок 97 — Карточка «Объект раздела».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-098",
+      "number": 98,
+      "page": "gisogd/registries/section-8.md",
+      "asset": "assets/images/gisogd/figure-098.jpg",
+      "sha256": "37e233a311637b7cb0db0487fee60dd0c0c9ea2921dd0c46b6e028d9aea65cf1",
+      "caption": "Рисунок 98 — Карточка «Инженерные изыскания».",
+      "alt": "Рисунок 98 — Карточка «Инженерные изыскания».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-099",
+      "number": 99,
+      "page": "gisogd/registries/section-8.md",
+      "asset": "assets/images/gisogd/figure-099.png",
+      "sha256": "db542367d50e3d3b86047bc58bd56e831f41f53ceffdfabe0bfd1b782e3f1e54",
+      "caption": "Рисунок 99 — Окно выбора адреса.",
+      "alt": "Рисунок 99 — Окно выбора адреса.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-100",
+      "number": 100,
+      "page": "gisogd/registries/section-9.md",
+      "asset": "assets/images/gisogd/figure-100.jpg",
+      "sha256": "702a65575db2799935db51ec58a08a92814054dc63d8eaa355406ae7b6206016",
+      "caption": "Рисунок 100 — Карточка «Искусственный земельный участок».",
+      "alt": "Рисунок 100 — Карточка «Искусственный земельный участок».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-101",
+      "number": 101,
+      "page": "gisogd/registries/section-9.md",
+      "asset": "assets/images/gisogd/figure-101.jpg",
+      "sha256": "b9b52ccc0820dfe8f9a80b854876067f868fa67397646f71bf2569122fbba358",
+      "caption": "Рисунок 101 — Флажок «Недействующая редакция» и поле «Новый документ, отменяющий действие».",
+      "alt": "Рисунок 101 — Флажок «Недействующая редакция» и поле «Новый документ, отменяющий действие».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-102",
+      "number": 102,
+      "page": "gisogd/registries/section-10.md",
+      "asset": "assets/images/gisogd/figure-102.png",
+      "sha256": "8039dc2b11fce9db95156fc3a7dd235b5e403f876350fc7eaf21af4c31bd26d7",
+      "caption": "Рисунок 102 — Раздел 10. Реестр «Зоны с особыми условиями использования территории».",
+      "alt": "Рисунок 102 — Раздел 10. Реестр «Зоны с особыми условиями использования территории».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-103",
+      "number": 103,
+      "page": "gisogd/registries/section-10.md",
+      "asset": "assets/images/gisogd/figure-103.png",
+      "sha256": "ca204ddf2a37d48215900ed964f74a4773565b5367ad6acbb84b20997634f941",
+      "caption": "Рисунок 103 — Вкладка «Выписка».",
+      "alt": "Рисунок 103 — Вкладка «Выписка».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-104",
+      "number": 104,
+      "page": "gisogd/registries/section-11.md",
+      "asset": "assets/images/gisogd/figure-104.jpg",
+      "sha256": "625350c7317c3017dc0d99f7ed8433ad4f338972b5465601286f04e57bc649ba",
+      "caption": "Рисунок 104 — Карточка «Материалы по надземным и подземным коммуникациям».",
+      "alt": "Рисунок 104 — Карточка «Материалы по надземным и подземным коммуникациям».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-105",
+      "number": 105,
+      "page": "gisogd/registries/section-11.md",
+      "asset": "assets/images/gisogd/figure-105.png",
+      "sha256": "f1414529340450f9fb0363631c7d8a64b9ed41845a9c4ffc18191775846f65e2",
+      "caption": "Рисунок 105 — Вкладка «Характеристики сети».",
+      "alt": "Рисунок 105 — Вкладка «Характеристики сети».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-106",
+      "number": 106,
+      "page": "gisogd/registries/section-12.md",
+      "asset": "assets/images/gisogd/figure-106.png",
+      "sha256": "4f0f365d047265a5f8900d2f985e518888629875619fdfd7936616b15e9a07bc",
+      "caption": "Рисунок 106 — Карточка «Резервирование земель и изъятие земельных участков».",
+      "alt": "Рисунок 106 — Карточка «Резервирование земель и изъятие земельных участков».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-107",
+      "number": 107,
+      "page": "gisogd/registries/section-13/index.md",
+      "asset": "assets/images/gisogd/figure-107.png",
+      "sha256": "63847b74d5be4119e59a2ac78b3a4e59567da0b50cfd82e539e6be3d4408fe28",
+      "caption": "Рисунок 107 — Карточка «Дело о земельном участке».",
+      "alt": "Рисунок 107 — Карточка «Дело о земельном участке».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-108",
+      "number": 108,
+      "page": "gisogd/registries/section-13/index.md",
+      "asset": "assets/images/gisogd/figure-108.png",
+      "sha256": "10acc2af0de1b4325279d25689c67e8b4daa53dffd0da7aad32eef7a1bb8dfd1",
+      "caption": "Рисунок 108 — Отсутствие кадастрового номера земельного участка.",
+      "alt": "Рисунок 108 — Отсутствие кадастрового номера земельного участка.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-109",
+      "number": 109,
+      "page": "gisogd/registries/section-13/index.md",
+      "asset": "assets/images/gisogd/figure-109.png",
+      "sha256": "3b891d34e4bff5265de2492fa3b80502a75b95b674a0c696c0cdff59c8d63360",
+      "caption": "Рисунок 109 — Флажок «ЗУ расположен в границах территории, в отношении которой принято решение и (или) заключён договор о её комплексном развитии».",
+      "alt": "Рисунок 109 — Флажок «ЗУ расположен в границах территории, в отношении которой принято решение и (или) заключён договор о её комплексном развитии».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-110",
+      "number": 110,
+      "page": "gisogd/registries/section-13/index.md",
+      "asset": "assets/images/gisogd/figure-110.png",
+      "sha256": "45417816d50fd6af0ddfae2f78ec709d0d603136d1fd31e3046d9a96e9d59edc",
+      "caption": "Рисунок 110 — Добавление реквизитов лица.",
+      "alt": "Рисунок 110 — Добавление реквизитов лица.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-111",
+      "number": 111,
+      "page": "gisogd/registries/section-13/land-and-construction.md",
+      "asset": "assets/images/gisogd/figure-111.jpg",
+      "sha256": "5954799787d5d656cf77b2c1d17dce5162cc543f41994ef7dfa37fff96ca3af1",
+      "caption": "Рисунок 111 — Карточка «Схема расположения земельного участка».",
+      "alt": "Рисунок 111 — Карточка «Схема расположения земельного участка».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-112",
+      "number": 112,
+      "page": "gisogd/registries/section-13/land-and-construction.md",
+      "asset": "assets/images/gisogd/figure-112.png",
+      "sha256": "d03b6b0a50ae56572776049e8a16b99cf11c5928dacb37412f82ae32e265354c",
+      "caption": "Рисунок 112 — Вкладка «Кадастровая выписка о земельном участке».",
+      "alt": "Рисунок 112 — Вкладка «Кадастровая выписка о земельном участке».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-113",
+      "number": 113,
+      "page": "gisogd/registries/section-13/land-and-construction.md",
+      "asset": "assets/images/gisogd/figure-113.jpg",
+      "sha256": "9031d39abad5c142d448651aa99fd97ffb238f838ba34809d83a897bfb68a5d2",
+      "caption": "Рисунок 113 — Карточка «Объект капитального строительства».",
+      "alt": "Рисунок 113 — Карточка «Объект капитального строительства».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-114",
+      "number": 114,
+      "page": "gisogd/registries/section-13/land-and-construction.md",
+      "asset": "assets/images/gisogd/figure-114.png",
+      "sha256": "536632c3f413de3673d2433e6b569fe91808084347ef08a0a0549511257689a9",
+      "caption": "Рисунок 114 — Вкладка «Выписка».",
+      "alt": "Рисунок 114 — Вкладка «Выписка».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-115",
+      "number": 115,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-115.png",
+      "sha256": "d4774f509b7c95fd4115664e5eefeb4c4e73664dd80eff02ed56bd45273c756c",
+      "caption": "Рисунок 115 — Вкладка «Разрешение на строительство».",
+      "alt": "Рисунок 115 — Вкладка «Разрешение на строительство».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-116",
+      "number": 116,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-116.png",
+      "sha256": "71e46946a787d808960ba2708f247fc5ee67c5415daffae1b041e42c19882477",
+      "caption": "Рисунок 116 — Карточка «Документ РС».",
+      "alt": "Рисунок 116 — Карточка «Документ РС».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-117",
+      "number": 117,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-117.png",
+      "sha256": "5baa7216bfe4b0180baec2a6e84c85bb80495e43c6e77a10d7b9df8e1f9c4788",
+      "caption": "Рисунок 117 — Карточка «Разрешение на ввод». Вид документа «Отказ в выдаче разрешения».",
+      "alt": "Рисунок 117 — Карточка «Разрешение на ввод». Вид документа «Отказ в выдаче разрешения».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-118",
+      "number": 118,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-118.jpg",
+      "sha256": "3ae697a0bcf0eba2007d438d58675477236f588102cb6c62df080d1a96c28c13",
+      "caption": "Рисунок 118 — Карточка «Разрешение на ввод».",
+      "alt": "Рисунок 118 — Карточка «Разрешение на ввод».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-119",
+      "number": 119,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-119.png",
+      "sha256": "aa19a3327eaa1d7ed14276a129320891995809b93baf233a4f54bc87322e4429",
+      "caption": "Рисунок 119 — Карточка «Разрешение на ввод». Вид документа «Разрешение».",
+      "alt": "Рисунок 119 — Карточка «Разрешение на ввод». Вид документа «Разрешение».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-120",
+      "number": 120,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-120.png",
+      "sha256": "2d3056b36058b322ae03f4066250ead7dd4fedee0feb3f7be87be32ec840d57b",
+      "caption": "Рисунок 120 — Карточка «Разрешение на ввод». Вид документа «Отказ во внесении исправлений».",
+      "alt": "Рисунок 120 — Карточка «Разрешение на ввод». Вид документа «Отказ во внесении исправлений».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-121",
+      "number": 121,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-121.png",
+      "sha256": "5baa7216bfe4b0180baec2a6e84c85bb80495e43c6e77a10d7b9df8e1f9c4788",
+      "caption": "Рисунок 121 — Вид документа «Отказ в выдаче разрешения».",
+      "alt": "Рисунок 121 — Вид документа «Отказ в выдаче разрешения».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-122",
+      "number": 122,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-122.png",
+      "sha256": "bc81ae8db6aaf9641f072d1b16a8303c622b0b7eeec4c8b578e574d66046fc62",
+      "caption": "Рисунок 122 — Вид документа «Внесение изменений/исправлений».",
+      "alt": "Рисунок 122 — Вид документа «Внесение изменений/исправлений».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-123",
+      "number": 123,
+      "page": "gisogd/registries/section-13/permits.md",
+      "asset": "assets/images/gisogd/figure-123.png",
+      "sha256": "99234ce868fb124bc1475830490df092d5453a1d5afa21f7824aa8c9ee9353a2",
+      "caption": "Рисунок 123 — Вкладка «Итоговый документ и ЭЦП».",
+      "alt": "Рисунок 123 — Вкладка «Итоговый документ и ЭЦП».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-124",
+      "number": 124,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-124.png",
+      "sha256": "611fbcaf237d8edaa752178ec7f8de760a06040eafcc7baff06bdb3e69f2ced4",
+      "caption": "Рисунок 124 — Таблица зарегистрированных уведомлений.",
+      "alt": "Рисунок 124 — Таблица зарегистрированных уведомлений.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-125",
+      "number": 125,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-125.png",
+      "sha256": "3b4f670211f1198529b1f51fdd48b15839f1ddd65633a239d727e289253ff090",
+      "caption": "Рисунок 125 — Карточка создания уведомления.",
+      "alt": "Рисунок 125 — Карточка создания уведомления.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-126",
+      "number": 126,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-126.png",
+      "sha256": "199774d107f53db4971053cd39d125b6bf487d32b960207a4e020181399dbde8",
+      "caption": "Рисунок 126 — Карточка создания уведомления. Тип уведомления «Уведомление о несоответствии объекта».",
+      "alt": "Рисунок 126 — Карточка создания уведомления. Тип уведомления «Уведомление о несоответствии объекта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-127",
+      "number": 127,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-127.png",
+      "sha256": "ac40429161ccec349fcec0f00b4d9b3b74906050fea51f466ff195a529e1ea5d",
+      "caption": "Рисунок 127 — Окно «Реквизиты подписанта».",
+      "alt": "Рисунок 127 — Окно «Реквизиты подписанта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-128",
+      "number": 128,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-128.jpg",
+      "sha256": "115c1827e3caa5396df1d52a42dd9d807ec8d7c3f3695ed6f7158449ae484468",
+      "caption": "Рисунок 128 — Карточка «Уведомление о соответствии объекта».",
+      "alt": "Рисунок 128 — Карточка «Уведомление о соответствии объекта».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-129",
+      "number": 129,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-129.png",
+      "sha256": "b563b4baff2c3bbf598e6351cebed16f54afaaa43aebc8078b54412b6ee24137",
+      "caption": "Рисунок 129 — Карточка «Уведомление о несоответствии параметров». Вкладка «Основное».",
+      "alt": "Рисунок 129 — Карточка «Уведомление о несоответствии параметров». Вкладка «Основное».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-130",
+      "number": 130,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-130.png",
+      "sha256": "d38b50dfa56109aa4326838f4a170a95bd3bea3019527a8ed7b5317693b9c051",
+      "caption": "Рисунок 130 — Вкладка «Итоговый документ и ЭЦП» в карточке «Уведомление о несоответствии параметров».",
+      "alt": "Рисунок 130 — Вкладка «Итоговый документ и ЭЦП» в карточке «Уведомление о несоответствии параметров».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-131",
+      "number": 131,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-131.png",
+      "sha256": "5e842f2cc86fb0e80f4c415f3c3ef1c92fbb90231d7c37c4502544390f09476a",
+      "caption": "Рисунок 131 — Вкладка «Документы ГИСОГД» в карточке «Уведомление о несоответствии параметров».",
+      "alt": "Рисунок 131 — Вкладка «Документы ГИСОГД» в карточке «Уведомление о несоответствии параметров».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-132",
+      "number": 132,
+      "page": "gisogd/registries/section-13/notifications.md",
+      "asset": "assets/images/gisogd/figure-132.jpg",
+      "sha256": "115c1827e3caa5396df1d52a42dd9d807ec8d7c3f3695ed6f7158449ae484468",
+      "caption": "Рисунок 132 — Вкладка «Сведения о ранее выданных уведомлениях» в карточке «Уведомление о несоответствии параметров».",
+      "alt": "Рисунок 132 — Вкладка «Сведения о ранее выданных уведомлениях» в карточке «Уведомление о несоответствии параметров».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-133",
+      "number": 133,
+      "page": "gisogd/registries/section-13/additional.md",
+      "asset": "assets/images/gisogd/figure-133.jpg",
+      "sha256": "41134241b9e2b9a38818a70884487b7f596f1eef9fdcd555c818f18d79c5de7d",
+      "caption": "Рисунок 133 — Карточка «Публичный сервитут». Вкладка «Основное».",
+      "alt": "Рисунок 133 — Карточка «Публичный сервитут». Вкладка «Основное».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-134",
+      "number": 134,
+      "page": "gisogd/registries/section-13/additional.md",
+      "asset": "assets/images/gisogd/figure-134.png",
+      "sha256": "b95a9f2f2e4abfae5a8f5c2ea12ac1b75ed689ac59e1fce6f9d288726126a108",
+      "caption": "Рисунок 134 — Окно «Реквизиты ЮЛ/ФЛ/ИП/ОИВ».",
+      "alt": "Рисунок 134 — Окно «Реквизиты ЮЛ/ФЛ/ИП/ОИВ».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-135",
+      "number": 135,
+      "page": "gisogd/registries/section-13/additional.md",
+      "asset": "assets/images/gisogd/figure-135.png",
+      "sha256": "65cb470edc38db3fc734e7f9d9c83252712d60145a6bc426fd1f11cd05494c4e",
+      "caption": "Рисунок 135 — Вкладка «Документы ГИСОГД» в карточке «Публичный сервитут».",
+      "alt": "Рисунок 135 — Вкладка «Документы ГИСОГД» в карточке «Публичный сервитут».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-136",
+      "number": 136,
+      "page": "gisogd/registries/section-13/additional.md",
+      "asset": "assets/images/gisogd/figure-136.jpg",
+      "sha256": "67b3200cc441ac2e8d961c7044678a34b0d3fa621428633a256ebd0736b1381e",
+      "caption": "Рисунок 136 — Вкладка «Приложения» в карточке «Публичный сервитут».",
+      "alt": "Рисунок 136 — Вкладка «Приложения» в карточке «Публичный сервитут».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-137",
+      "number": 137,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-137.png",
+      "sha256": "a8a68ca810cb0ea056544e97e51437426a1ffd2f330bcdc5cecf8cc36976a337",
+      "caption": "Рисунок 137 — Карточка «Программы реализации документов территориального планирования». Вкладка «Основное».",
+      "alt": "Рисунок 137 — Карточка «Программы реализации документов территориального планирования». Вкладка «Основное».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-138",
+      "number": 138,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-138.png",
+      "sha256": "0ebef15670f10b5911aa0b961f39c63624d9c2ffe76f4cc7ee6e73915a1e120b",
+      "caption": "Рисунок 138 — Блок «Основная информация» в карточке программы реализации документа территориального планирования.",
+      "alt": "Рисунок 138 — Блок «Основная информация» в карточке программы реализации документа территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-139",
+      "number": 139,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-139.png",
+      "sha256": "c5e1657c7290b7208d68bcfcd5320311305fc2d577b8260a5f34b9f2876d8532",
+      "caption": "Рисунок 139 — Блок «Документ об утверждении» в карточке программы реализации документа территориального планирования.",
+      "alt": "Рисунок 139 — Блок «Документ об утверждении» в карточке программы реализации документа территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-140",
+      "number": 140,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-140.png",
+      "sha256": "6634d1d0a92122db1e4fb6b2b784c7e6786647e11677104f465547659993f707",
+      "caption": "Рисунок 140 — Блок «Адрес» в карточке программы реализации документа территориального планирования.",
+      "alt": "Рисунок 140 — Блок «Адрес» в карточке программы реализации документа территориального планирования.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-141",
+      "number": 141,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-141.png",
+      "sha256": "fad71df9060ebe3816c64f57091385ad2b51238ac9c3501bfb831df5bd493232",
+      "caption": "Рисунок 141 — Карточка «Документ территориального планирования». Вкладка «Основное».",
+      "alt": "Рисунок 141 — Карточка «Документ территориального планирования». Вкладка «Основное».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-142",
+      "number": 142,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-142.png",
+      "sha256": "0cd21cb956fe227451dc629cb3cf81f3a10c9c827c0a12734089074145c4dc21",
+      "caption": "Рисунок 142 — Флажок «Недействующая редакция» и поле «Новый документ отменяющий действие».",
+      "alt": "Рисунок 142 — Флажок «Недействующая редакция» и поле «Новый документ отменяющий действие».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-143",
+      "number": 143,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-143.jpg",
+      "sha256": "0a2ac7a15f973a921381939d30ba58ab98fedad2f477bc40e936f2003db282ed",
+      "caption": "Рисунок 143 — Вкладка «Карта ГП/СТП». Функциональные зоны и объекты.",
+      "alt": "Рисунок 143 — Вкладка «Карта ГП/СТП». Функциональные зоны и объекты.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-144",
+      "number": 144,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-144.png",
+      "sha256": "d37a969877bab577def644db9e7ebaf9d0472ef9517e2ad29a533d5e8f49dcef",
+      "caption": "Рисунок 144 — Карточка «Внесение изменений в документ территориального планирования».",
+      "alt": "Рисунок 144 — Карточка «Внесение изменений в документ территориального планирования».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-145",
+      "number": 145,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-145.png",
+      "sha256": "b176259090ab1d46f7e2f15c03ca33d9a69fa4f4f3fd2b2183a9162c1315c406",
+      "caption": "Рисунок 145 — Блок «Пересечения».",
+      "alt": "Рисунок 145 — Блок «Пересечения».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-146",
+      "number": 146,
+      "page": "gisogd/registries/section-14.md",
+      "asset": "assets/images/gisogd/figure-146.jpg",
+      "sha256": "ae0b80d7ac6599f883dfbed587331f98691cd2fc4112c19d0feb8afde9e5aa16",
+      "caption": "Рисунок 146 — Карточка «Контуры функциональных зон».",
+      "alt": "Рисунок 146 — Карточка «Контуры функциональных зон».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-147",
+      "number": 147,
+      "page": "gisogd/registries/section-15.md",
+      "asset": "assets/images/gisogd/figure-147.jpg",
+      "sha256": "157a934d4dc54677ecabcb8d9d095557937e30d81a7aa69e6ecce83f5983dc23",
+      "caption": "Рисунок 147 — Карточка «Особо охраняемые природные территории». Вкладка «Основное».",
+      "alt": "Рисунок 147 — Карточка «Особо охраняемые природные территории». Вкладка «Основное».",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-148",
+      "number": 148,
+      "page": "gisogd/registries/section-15.md",
+      "asset": "assets/images/gisogd/figure-148.png",
+      "sha256": "841126a9ed3dac9550b49eed70cea94826e91befd08bc0d571da8f869f7e73ca",
+      "caption": "Рисунок 148 — Вкладка «Документы ГИСОГД» в карточке особо охраняемой природной территории.",
+      "alt": "Рисунок 148 — Вкладка «Документы ГИСОГД» в карточке особо охраняемой природной территории.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-149",
+      "number": 149,
+      "page": "gisogd/registries/section-15.md",
+      "asset": "assets/images/gisogd/figure-149.png",
+      "sha256": "9c8716181eb7d4ad0af833b6174a4080be8d4edfcf2887bc7bc48daf5a340f26",
+      "caption": "Рисунок 149 — Вкладка «Приложения» в карточке особо охраняемой природной территории.",
+      "alt": "Рисунок 149 — Вкладка «Приложения» в карточке особо охраняемой природной территории.",
+      "ui_version": null
+    },
+    {
+      "id": "GIS-FIG-150",
+      "number": 150,
+      "page": "gisogd/registries/section-16.md",
+      "asset": "assets/images/gisogd/figure-150.jpg",
+      "sha256": "4e6bd53d1d732bd354f0f464c4bcf66106736f7c7bd88c8bf4c74d2a1bdaea6a",
+      "caption": "Рисунок 150 — Карточка «Лесничества». Вкладка «Основное».",
+      "alt": "Рисунок 150 — Карточка «Лесничества». Вкладка «Основное».",
+      "ui_version": null
+    }
+  ]
+}

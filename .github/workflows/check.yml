@@ -1,0 +1,55 @@
+name: Documentation checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Set up Node for viewer regression tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Test documentation checks and image viewer
+        run: |
+          python -m unittest discover -s tools -p "test_*.py"
+          node --test tools/test_lightbox.cjs
+
+      - name: Check publication configuration
+        run: |
+          test -x ./build.sh
+          python tools/check_publication.py
+
+      - name: Build documentation
+        run: python -m mkdocs build --strict
+
+      - name: Check built links, media and reading order
+        run: python tools/check_docs.py
+
+      - name: Save built documentation
+        uses: actions/upload-artifact@v4
+        with:
+          name: gisogd-documentation
+          path: _site/
+          if-no-files-found: error

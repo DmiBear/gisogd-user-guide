@@ -65,6 +65,8 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/home.css
+  - assets/stylesheets/viewer.css
 
 extra_javascript:
   - assets/javascripts/lightbox.js
@@ -81,9 +83,12 @@ copyright: © 2026 Поляков Дмитрий
 nav:
   - Главная: index.md
   - Начало работы:
+      - С чего начать: start-here.md
+      - От заявки к документу: quickstart.md
       - Введение: introduction.md
       - Назначение и условия применения: purpose.md
       - Подготовка к работе: getting-started.md
+      - Если что-то не получается: help.md
   - Основные операции:
       - Обзор: operations/index.md
       - Навигация и табличные формы: operations/navigation-and-tables.md
@@ -95,20 +100,40 @@ nav:
       - Регистрация заявок: gisogd/requests.md
       - Размещение документа: gisogd/document-placement.md
       - Реестры документов:
-          - Разделы 1–6: gisogd/registries/sections-1-6.md
-          - Разделы 7–12: gisogd/registries/sections-7-12.md
+          - Разделы 1–6:
+              - Обзор: gisogd/registries/sections-1-6.md
+              - 1. Территориальное планирование РФ: gisogd/registries/section-1.md
+              - 2. Территориальное планирование субъектов РФ: gisogd/registries/section-2.md
+              - 3. Территориальное планирование муниципальных образований: gisogd/registries/section-3.md
+              - 4. Нормативы градостроительного проектирования: gisogd/registries/section-4.md
+              - 5. Градостроительное зонирование: gisogd/registries/section-5.md
+              - 6. Правила благоустройства: gisogd/registries/section-6.md
+          - Разделы 7–12:
+              - Обзор: gisogd/registries/sections-7-12.md
+              - 7. Планировка территории: gisogd/registries/section-7.md
+              - 8. Инженерные изыскания: gisogd/registries/section-8.md
+              - 9. Искусственные земельные участки: gisogd/registries/section-9.md
+              - 10. Зоны с особыми условиями использования территории: gisogd/registries/section-10.md
+              - 11. Надземные и подземные коммуникации: gisogd/registries/section-11.md
+              - 12. Резервирование и изъятие земель: gisogd/registries/section-12.md
           - Раздел 13:
               - Обзор: gisogd/registries/section-13/index.md
               - Земельные участки и объекты: gisogd/registries/section-13/land-and-construction.md
               - Разрешения: gisogd/registries/section-13/permits.md
               - Уведомления: gisogd/registries/section-13/notifications.md
               - Сервитуты и технические условия: gisogd/registries/section-13/additional.md
-          - Разделы 14–18: gisogd/registries/sections-14-18.md
+          - Разделы 14–18:
+              - Обзор: gisogd/registries/sections-14-18.md
+              - 14. Программы реализации документов: gisogd/registries/section-14.md
+              - 15. Особо охраняемые природные территории: gisogd/registries/section-15.md
+              - 16. Лесничества: gisogd/registries/section-16.md
+              - 17. Информационные модели объектов капитального строительства: gisogd/registries/section-17.md
+              - 18. Иные документы: gisogd/registries/section-18.md
   - Программа обучения:
       - Обзор программы: training/index.md
       - Вебинары 1–5: training/webinars-1-5.md
       - Вебинары 6–10: training/webinars-6-10.md
       - Практические работы: training/practice.md
       - Контроль и рекомендации: training/assessment.md
-  - Видеоинструкции: videos/index.md
+  - Видеоматериалы: videos/index.md
   - О руководстве: about.md

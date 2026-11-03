@@ -4,3 +4,4 @@ _site/
 __pycache__/
 *.py[cod]
 LOCAL_SETUP.md
+.wrangler/

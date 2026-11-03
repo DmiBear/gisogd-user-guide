@@ -1,0 +1,9 @@
+{
+  "documentation_revision": "2026.11.03",
+  "editorial_review_date": "2026-11-03",
+  "source": "Existing published GISOGD guide and its 150 illustrations",
+  "ui_version": null,
+  "ui_version_status": "not-confirmed-in-published-source",
+  "runtime_verified": false,
+  "scope": "Editorial restructuring, navigation, image viewer and website checks; not application acceptance testing"
+}
