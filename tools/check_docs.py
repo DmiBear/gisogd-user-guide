@@ -13,11 +13,17 @@ ROOT = Path(__file__).resolve().parents[1]
 FIGURE = re.compile(r'<figure class="doc-figure".*?</figure>', re.S)
 IMAGE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 CAPTION = re.compile(r'<figcaption>(.*?)</figcaption>', re.S)
+HOME_TITLE = 'Руководство пользователя по системе "Государственная информационная система обеспечения градостроительной деятельности"'
 
 
 def check_home(source):
     errors = []
-    for required in ('# Руководство пользователя ГИСОГД', 'государственная информационная система', 'href="start-here/"', 'href="quickstart/"', 'href="gisogd/requests/"', 'href="gisogd/document-placement/"', 'href="operations/map/"'):
+    if re.findall(r"^# (.+)$", source, re.M) != [HOME_TITLE]:
+        errors.append("Homepage must use the exact official guide title")
+    description = re.search(r'<div class="gisogd-home__description"[^>]*>(.*?)</div>', source, re.S)
+    if not description or len(re.sub(r"\s+", " ", description[1]).strip()) < 150:
+        errors.append("Homepage must explain the system purpose and guide scope")
+    for required in ('href="start-here/"', 'href="quickstart/"', 'href="gisogd/requests/"', 'href="gisogd/document-placement/"', 'href="operations/map/"', 'href="introduction/#15"', 'href="reference/"'):
         if required not in source:
             errors.append(f"Homepage instruction/context missing: {required}")
     for group in ("applications", "registries", "operations", "map", "getting-started", "training"):

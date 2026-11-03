@@ -3,13 +3,21 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from check_docs import ROOT, Page, check_built, check_editorial_tone, check_home, first_mentions, validate_figures
+from check_docs import HOME_TITLE, ROOT, Page, check_built, check_editorial_tone, check_home, first_mentions, validate_figures
 
 
 class GuideChecks(unittest.TestCase):
     def test_technical_catalogue(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertEqual(check_home(source), [])
+
+    def test_official_title_is_not_abbreviated(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace(HOME_TITLE, "Руководство пользователя ГИСОГД")))
+
+    def test_description_cannot_be_removed(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace('class="gisogd-home__description"', 'class="missing-description"')))
 
     def test_missing_registry_link(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")

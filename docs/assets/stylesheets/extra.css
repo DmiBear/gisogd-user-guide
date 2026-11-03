@@ -386,6 +386,12 @@ body {
   vertical-align: -0.25em;
 }
 
+/* Ссылка на сокращение должна показывать строку ниже закреплённой шапки. */
+.md-typeset [id^="term-"] {
+  display: inline-block;
+  scroll-margin-top: 7rem;
+}
+
 .md-typeset figure.doc-figure {
   margin: 1.5rem auto;
   text-align: center;
@@ -469,6 +475,39 @@ body {
   }
 
   .md-typeset { font-size: 0.9rem; }
+}
+
+/* Двухколоночная справка читается на телефоне без прокрутки вправо. */
+@media screen and (max-width: 29.9844em) {
+  .md-content__inner:has(.gisogd-reference-title) table:not([class]) {
+    display: block;
+    min-width: 0;
+  }
+
+  .md-content__inner:has(.gisogd-reference-title) table :is(tbody, tr, td) {
+    display: block;
+    min-width: 0;
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .md-content__inner:has(.gisogd-reference-title) table thead {
+    display: none;
+  }
+
+  .md-content__inner:has(.gisogd-reference-title) table td {
+    padding: 0.65em 0.85em;
+  }
+
+  .md-content__inner:has(.gisogd-reference-title) table td:first-child {
+    padding-bottom: 0.25em;
+    font-weight: 700;
+  }
+
+  .md-content__inner:has(.gisogd-reference-title) table td + td {
+    padding-top: 0;
+    border-top: 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

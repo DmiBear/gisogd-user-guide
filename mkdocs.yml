@@ -125,6 +125,12 @@ nav:
               - 16. Лесничества: gisogd/registries/section-16.md
               - 17. Информационные модели объектов капитального строительства: gisogd/registries/section-17.md
               - 18. Иные документы: gisogd/registries/section-18.md
+  - Справка:
+      - Справочные сведения: reference/index.md
+      - Условные обозначения и кнопки: reference/conventions.md
+      - Импорт геометрии и загрузка материалов: reference/import.md
+      - Файлы и электронная подпись: reference/files-and-signature.md
+      - Фильтры и статусы заявок: reference/application-statuses.md
   - Программа обучения:
       - Обзор программы: training/index.md
       - Вебинары 1–5: training/webinars-1-5.md

@@ -1,9 +1,9 @@
 {
-  "documentation_revision": "2026.11.03.2",
+  "documentation_revision": "2026.11.03.3",
   "editorial_review_date": "2026-11-03",
-  "source": "Existing published GISOGD guide and its 150 illustrations",
+  "source": "Existing GISOGD guide, its 150 illustrations and source user manual sections 1.5, 4.3–4.5.2.12, 5.2–5.3.2, 5.4.3.4 and 5.4.13",
   "ui_version": null,
   "ui_version_status": "not-confirmed-in-published-source",
   "runtime_verified": false,
-  "scope": "Technical-reference presentation across all guide pages, larger interface and GISOGD-style catalogue; existing procedures, media and image viewer preserved; not application acceptance testing"
+  "scope": "Official homepage title and extended description; linked 14 case tabs; field and button conventions; separate map and registry import references; file and signature reference; journal filters versus application statuses; 53 unchanged glossary definitions with stable anchors; existing media, numbering and image viewer preserved; not application acceptance testing"
 }
