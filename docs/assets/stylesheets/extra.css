@@ -8,12 +8,7 @@
   --gisogd-line: #dbe5f0;
   --gisogd-surface: #ffffff;
   --gisogd-canvas: #f6f9fd;
-  --gisogd-onboarding-bg-start: #ffffff;
-  --gisogd-onboarding-bg-end: #ffffff;
-  --gisogd-onboarding-ink: #172b3a;
-  --gisogd-onboarding-muted: #516a82;
-  --gisogd-onboarding-step-bg: rgba(255, 255, 255, 0.94);
-  --gisogd-onboarding-step-border: rgba(103, 157, 220, 0.28);
+  --gisogd-page-width: 84rem;
   --md-primary-fg-color: #ffffff;
   --md-primary-fg-color--light: #ffffff;
   --md-primary-fg-color--dark: #f7faff;
@@ -41,12 +36,6 @@
   --gisogd-line: #31465d;
   --gisogd-surface: #172331;
   --gisogd-canvas: #111b27;
-  --gisogd-onboarding-bg-start: #ffffff;
-  --gisogd-onboarding-bg-end: #ffffff;
-  --gisogd-onboarding-ink: #172b3a;
-  --gisogd-onboarding-muted: #516a82;
-  --gisogd-onboarding-step-bg: #f5f9ff;
-  --gisogd-onboarding-step-border: rgba(103, 157, 220, 0.34);
   --md-primary-fg-color: #172331;
   --md-primary-fg-color--light: #1c2b3a;
   --md-primary-fg-color--dark: #111b27;
@@ -61,6 +50,10 @@ body {
   background: var(--gisogd-canvas);
 }
 
+.md-grid {
+  max-width: var(--gisogd-page-width);
+}
+
 /* Светлая шапка в стилистике интерфейса ГИСОГД. */
 .md-header {
   color: var(--gisogd-ink);
@@ -71,6 +64,7 @@ body {
 }
 
 .md-header__title {
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -96,6 +90,8 @@ body {
   color: var(--gisogd-muted);
 }
 
+.md-search__input { font-size: 0.85rem; }
+
 .md-tabs {
   color: var(--gisogd-muted);
   background: var(--gisogd-surface);
@@ -106,6 +102,7 @@ body {
   position: relative;
   margin-top: 0.75rem;
   font-weight: 600;
+  font-size: 0.8rem;
   opacity: 1;
 }
 
@@ -137,7 +134,7 @@ body {
 }
 
 .md-main__inner {
-  max-width: 84rem;
+  max-width: var(--gisogd-page-width);
   margin-top: 1.25rem;
 }
 
@@ -148,7 +145,7 @@ body {
 .md-content__inner {
   min-height: 70vh;
   margin: 0 0.8rem 2.5rem;
-  padding: 2.2rem clamp(1.2rem, 3vw, 3.2rem) 3rem;
+  padding: 1.8rem clamp(1.2rem, 2.4vw, 2.4rem) 2.5rem;
   background: var(--gisogd-surface);
   border: 1px solid var(--gisogd-line);
   border-radius: 0.35rem;
@@ -181,6 +178,9 @@ body {
   line-height: 1.4;
 }
 
+.md-nav { font-size: 0.8rem; }
+.md-nav__title { font-size: inherit; }
+
 .md-nav__link:hover,
 .md-nav__link:focus,
 .md-nav__link--active {
@@ -194,14 +194,14 @@ body {
 /* Типографика документации. */
 .md-typeset {
   color: var(--gisogd-ink);
-  font-size: 0.82rem;
-  line-height: 1.72;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 .md-typeset h1 {
   margin: 0 0 1.2rem;
   color: var(--gisogd-ink);
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-size: clamp(1.7rem, 2.6vw, 2.15rem);
   font-weight: 750;
   line-height: 1.15;
   letter-spacing: -0.035em;
@@ -239,13 +239,13 @@ body {
   margin-block: 0.8em;
 }
 
-.md-typeset :is(ol, ul):not(.gisogd-onboarding__steps) {
+.md-typeset :is(ol, ul) {
   margin-block: 0.85em 1.1em;
   margin-inline: 0;
   padding-inline-start: 1.9em;
 }
 
-.md-typeset :is(ol, ul):not(.gisogd-onboarding__steps) > li {
+.md-typeset :is(ol, ul) > li {
   margin-inline-start: 0;
   margin-block-end: 0.65em;
   padding-inline-start: 0.2em;
@@ -255,7 +255,7 @@ body {
   margin-block: 0.5em;
 }
 
-.md-typeset :is(ol, ul) li > :is(ol, ul):not(.gisogd-onboarding__steps) {
+.md-typeset :is(ol, ul) li > :is(ol, ul) {
   margin-block: 0.65em 0.85em;
   margin-inline: 0;
   padding-inline-start: 2.7em;
@@ -279,6 +279,7 @@ body {
 }
 
 .md-typeset a {
+  color: var(--gisogd-blue);
   text-decoration-thickness: 0.06em;
   text-underline-offset: 0.16em;
 }
@@ -300,6 +301,7 @@ body {
 .md-typeset table:not([class]) {
   display: table;
   width: 100%;
+  font-size: 0.88rem;
   border: 1px solid var(--gisogd-line);
   border-radius: 0.55rem;
   box-shadow: none;
@@ -323,7 +325,7 @@ body {
 .md-typeset .admonition,
 .md-typeset details {
   overflow: hidden;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   background: var(--gisogd-surface);
   border: 1px solid color-mix(in srgb, var(--gisogd-blue) 35%, var(--gisogd-line));
   border-radius: 0.65rem;
@@ -397,7 +399,7 @@ body {
   max-width: 92%;
   margin: 0.55rem auto 0;
   color: var(--gisogd-muted);
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   font-style: normal;
   line-height: 1.4;
   text-align: center;
@@ -415,13 +417,25 @@ body {
   background: var(--md-footer-bg-color--dark);
 }
 
+.md-copyright { font-size: 0.72rem; }
+
+/* Более широкая рабочая область не должна растягивать строку текста. */
+.md-content__inner:not(:has(.gisogd-home)) > :is(p, ol, ul) {
+  max-width: 80ch;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search { width: 17rem; }
+  .md-search__inner { width: 17rem; }
+}
+
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary {
-    width: 14rem;
+    width: 15rem;
   }
 
   .md-sidebar--secondary {
-    width: 12rem;
+    width: 13rem;
   }
 }
 
@@ -431,13 +445,6 @@ body {
     border-radius: 0.65rem;
   }
 
-  .gisogd-dashboard {
-    grid-template-columns: 1fr;
-  }
-
-  .gisogd-onboarding {
-    min-height: 0;
-  }
 }
 
 @media screen and (max-width: 44.9844em) {
@@ -457,22 +464,11 @@ body {
     padding: 1.2rem 1rem 2rem;
   }
 
-  .gisogd-home-links {
-    padding-left: 0;
-  }
-
-  .md-typeset :is(ol, ul) li > :is(ol, ul):not(.gisogd-onboarding__steps) {
+  .md-typeset :is(ol, ul) li > :is(ol, ul) {
     padding-inline-start: 2.4em;
   }
 
-  .gisogd-onboarding {
-    min-height: 0;
-    padding: 1.15rem;
-  }
-
-  .gisogd-onboarding__steps {
-    grid-template-columns: 1fr;
-  }
+  .md-typeset { font-size: 0.9rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -480,7 +476,4 @@ body {
     scroll-behavior: auto;
   }
 
-  .gisogd-onboarding__steps a {
-    transition: none;
-  }
 }

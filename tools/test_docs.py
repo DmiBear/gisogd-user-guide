@@ -3,10 +3,28 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from check_docs import Page, check_built, first_mentions, validate_figures
+from check_docs import ROOT, Page, check_built, check_editorial_tone, check_home, first_mentions, validate_figures
 
 
 class GuideChecks(unittest.TestCase):
+    def test_technical_catalogue(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertEqual(check_home(source), [])
+
+    def test_missing_registry_link(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace('href="gisogd/registries/section-8/"', 'href="wrong/"')))
+
+    def test_landing_page_regression(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source + '<div class="gisogd-task-card"></div>'))
+
+    def test_promotional_wording(self):
+        self.assertTrue(check_editorial_tone({"sample": "Выберите свою задачу"}))
+
+    def test_ui_names_are_not_marketing(self):
+        self.assertEqual(check_editorial_tone({"sample": "На главном окне расположен блок «Популярные разделы»."}), [])
+
     def rows(self):
         return [{"number": n, "caption": str(n), "alt": str(n)} for n in range(1, 151)]
 

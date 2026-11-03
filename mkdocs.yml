@@ -73,22 +73,18 @@ extra_javascript:
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/DmiBear
-      name: Профиль Дмитрия Полякова на GitHub
 
 copyright: © 2026 Поляков Дмитрий
 
 nav:
   - Главная: index.md
   - Начало работы:
-      - С чего начать: start-here.md
-      - От заявки к документу: quickstart.md
+      - Порядок работы с руководством: start-here.md
+      - Размещение документа по заявке: quickstart.md
       - Введение: introduction.md
       - Назначение и условия применения: purpose.md
       - Подготовка к работе: getting-started.md
-      - Если что-то не получается: help.md
+      - Возможные затруднения: help.md
   - Основные операции:
       - Обзор: operations/index.md
       - Навигация и табличные формы: operations/navigation-and-tables.md

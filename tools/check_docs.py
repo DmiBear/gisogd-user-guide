@@ -15,6 +15,29 @@ IMAGE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 CAPTION = re.compile(r'<figcaption>(.*?)</figcaption>', re.S)
 
 
+def check_home(source):
+    errors = []
+    for required in ('# Руководство пользователя ГИСОГД', 'государственная информационная система', 'href="start-here/"', 'href="quickstart/"', 'href="gisogd/requests/"', 'href="gisogd/document-placement/"', 'href="operations/map/"'):
+        if required not in source:
+            errors.append(f"Homepage instruction/context missing: {required}")
+    for group in ("applications", "registries", "operations", "map", "getting-started", "training"):
+        if f'<h2 id="{group}">' not in source or f'href="#{group}"' not in source:
+            errors.append(f"Homepage catalogue group missing: {group}")
+    for number in range(1, 19):
+        target = "section-13/" if number == 13 else f"section-{number}/"
+        if f'href="gisogd/registries/{target}"' not in source:
+            errors.append(f"Homepage registry link missing: {number}")
+    if any(token in source for token in ("gisogd-button", "gisogd-task-card", "gisogd-start-strip", "gisogd-eyebrow")):
+        errors.append("Homepage must remain a technical catalogue, not a promotional landing page")
+    return errors
+
+
+def check_editorial_tone(sources):
+    # Match presentation copy, not real UI names such as «Популярные разделы».
+    promotional = re.compile(r"добро пожаловать|выберите свою задачу|освойте основные действия|нужен определённый реестр|изучаете систему\?|портфолио", re.I)
+    return [f"Promotional wording in {name}" for name, source in sources.items() if promotional.search(source)]
+
+
 def nav_pages(nav):
     for entry in nav:
         for value in entry.values():
@@ -160,10 +183,8 @@ def main():
             path = (site / old["page"]).resolve()
             if path not in built or not set(old["anchors"]).issubset(built[path].ids):
                 errors.append(f"Legacy bookmarks lost: {old['page']}")
-    home = (ROOT / "docs/index.md").read_text(encoding="utf-8")
-    for required in ('# Руководство пользователя ГИСОГД', 'государственная информационная система', 'href="start-here/"', 'href="quickstart/"', 'href="gisogd/requests/"', 'href="gisogd/document-placement/"', 'href="operations/map/"'):
-        if required not in home:
-            errors.append(f"Homepage task/context missing: {required}")
+    errors += check_home((ROOT / "docs/index.md").read_text(encoding="utf-8"))
+    errors += check_editorial_tone(dict(zip(pages, source_texts)))
     if errors:
         print("\n".join(errors))
         return 1

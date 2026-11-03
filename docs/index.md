@@ -8,82 +8,116 @@ hide:
 
 <div class="gisogd-home" markdown>
 
-<section class="gisogd-home__lead" markdown>
+<div class="gisogd-home__description" markdown>
 
-<span class="gisogd-eyebrow">Заявки · документы · карта</span>
+ГИСОГД — государственная информационная система обеспечения градостроительной деятельности. В руководстве описаны регистрация заявок, ведение реестров, размещение документов и работа с картой.
 
-**ГИСОГД — государственная информационная система обеспечения градостроительной деятельности.** Она объединяет сведения, документы и пространственные данные. Руководство поможет освоить интерфейс, зарегистрировать заявку, разместить документ и найти нужные сведения на карте.
-
-<div class="gisogd-home-actions">
-  <a class="gisogd-button gisogd-button--primary" href="start-here/">С чего начать <span aria-hidden="true">→</span></a>
-  <a class="gisogd-button" href="quickstart/">От заявки к документу</a>
 </div>
 
-</section>
+<nav class="gisogd-home-nav" aria-label="Разделы на главной странице">
+  <a href="#applications">Журнал заявлений</a>
+  <a href="#registries">Реестры документов</a>
+  <a href="#operations">Основные операции</a>
+  <a href="#map">Работа с картой</a>
+  <a href="#getting-started">Начало работы</a>
+  <a href="#training">Обучение</a>
+</nav>
 
-<section class="gisogd-start-strip" aria-labelledby="first-steps-title">
-  <div>
-    <span class="gisogd-kicker">Первое знакомство</span>
-    <h2 id="first-steps-title">Освойте основные действия</h2>
-    <p>Начните со входа, затем познакомьтесь с реестрами и карточками.</p>
+<div class="gisogd-catalog">
+  <div class="gisogd-catalog__column">
+    <section class="gisogd-catalog-section" aria-labelledby="applications">
+      <h2 id="applications"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/applications.png" alt=""></span>Журнал заявлений</h2>
+      <nav class="gisogd-catalog-links" aria-label="Журнал заявлений">
+        <a href="gisogd/requests/">Регистрация поступивших заявок</a>
+        <a href="gisogd/registries/section-13/land-and-construction/#54134">Градостроительный план земельного участка (ГПЗУ)</a>
+        <a href="gisogd/registries/section-13/permits/">Разрешение на строительство</a>
+        <a href="gisogd/registries/section-13/permits/#54137">Разрешение на ввод объекта в эксплуатацию</a>
+        <a href="gisogd/registries/section-13/notifications/">Уведомления</a>
+      </nav>
+    </section>
+
+    <section class="gisogd-catalog-section" aria-labelledby="operations">
+      <h2 id="operations"><span class="gisogd-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 9h16M9 9v11M4 14h16"/></svg></span>Основные операции</h2>
+      <nav class="gisogd-catalog-links" aria-label="Основные операции">
+        <a href="operations/navigation-and-tables/#41">Навигация в системе</a>
+        <a href="operations/navigation-and-tables/#42">Работа с табличными формами</a>
+        <a href="operations/records/">Управление записями в реестре</a>
+        <a href="operations/records/#44">Фильтрация записей</a>
+        <a href="operations/records/#45">Работа с карточкой записи</a>
+        <a href="operations/records/#451">Приложенные файлы</a>
+      </nav>
+    </section>
+
+    <section class="gisogd-catalog-section" aria-labelledby="getting-started">
+      <h2 id="getting-started">Начало работы</h2>
+      <nav class="gisogd-catalog-links" aria-label="Начало работы">
+        <a href="introduction/">Введение</a>
+        <a href="purpose/">Назначение и условия применения</a>
+        <a href="getting-started/">Подготовка к работе и вход в систему</a>
+        <a href="start-here/">Порядок изучения руководства</a>
+        <a href="quickstart/">Размещение документа по заявке</a>
+        <a href="help/">Возможные затруднения</a>
+      </nav>
+    </section>
   </div>
-  <ol class="gisogd-start-strip__steps">
-    <li><a href="getting-started/#31">Войдите в систему</a></li>
-    <li><a href="operations/navigation-and-tables/#42">Откройте реестр</a></li>
-    <li><a href="operations/records/#45">Изучите карточку</a></li>
-  </ol>
-</section>
 
-<section class="gisogd-task-section" aria-labelledby="tasks-title">
-  <span class="gisogd-kicker">Работа с системой</span>
-  <h2 id="tasks-title">Выберите свою задачу</h2>
-  <div class="gisogd-task-grid">
-    <a class="gisogd-task-card" href="gisogd/requests/">
-      <img src="assets/images/home/applications.png" alt="" aria-hidden="true">
-      <h3>Зарегистрировать заявку</h3>
-      <p>Журнал поступивших заявок, карточка и связь с делами о земельных участках.</p>
-      <span>Перейти к инструкции <span aria-hidden="true">→</span></span>
-    </a>
-    <a class="gisogd-task-card" href="gisogd/document-placement/">
-      <img src="assets/images/home/registries.png" alt="" aria-hidden="true">
-      <h3>Разместить документ</h3>
-      <p>Запись в реестре, документы ГИСОГД, файлы и связь с заявкой на размещение.</p>
-      <span>Перейти к инструкции <span aria-hidden="true">→</span></span>
-    </a>
-    <a class="gisogd-task-card" href="operations/map/">
-      <span class="gisogd-task-card__map" aria-hidden="true">⌖</span>
-      <h3>Работать с картой</h3>
-      <p>Слои, поиск объектов, измерения, геометрия и печать карты.</p>
-      <span>Перейти к инструкции <span aria-hidden="true">→</span></span>
-    </a>
+  <div class="gisogd-catalog__column">
+    <section class="gisogd-catalog-section" aria-labelledby="registries">
+      <h2 id="registries"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/registries.png" alt=""></span>Реестры документов</h2>
+      <nav class="gisogd-catalog-links" aria-label="Реестры документов">
+        <a href="gisogd/document-placement/">Размещение документов ГИСОГД</a>
+        <a href="gisogd/registries/section-1/">Территориальное планирование Российской Федерации</a>
+        <a href="gisogd/registries/section-2/">Территориальное планирование субъектов РФ</a>
+        <a href="gisogd/registries/section-3/">Территориальное планирование муниципальных образований</a>
+        <a href="gisogd/registries/section-4/">Нормативы градостроительного проектирования</a>
+        <a href="gisogd/registries/section-5/">Градостроительное зонирование</a>
+        <a href="gisogd/registries/section-6/">Правила благоустройства территории</a>
+        <a href="gisogd/registries/section-7/">Планировка территории</a>
+        <a href="gisogd/registries/section-8/">Инженерные изыскания</a>
+        <a href="gisogd/registries/section-9/">Искусственные земельные участки</a>
+        <a href="gisogd/registries/section-10/">Зоны с особыми условиями использования территории</a>
+        <a href="gisogd/registries/section-11/">Надземные и подземные коммуникации</a>
+        <a href="gisogd/registries/section-12/">Резервирование земель и изъятие земельных участков</a>
+        <a href="gisogd/registries/section-13/">Дела о застроенных или подлежащих застройке земельных участках</a>
+        <a href="gisogd/registries/section-14/">Программы реализации документов территориального планирования</a>
+        <a href="gisogd/registries/section-15/">Особо охраняемые природные территории</a>
+        <a href="gisogd/registries/section-16/">Лесничества</a>
+        <a href="gisogd/registries/section-17/">Информационные модели объектов капитального строительства</a>
+        <a href="gisogd/registries/section-18/">Иные документы</a>
+      </nav>
+      <a class="gisogd-catalog-section__reference" href="gisogd/overview/">Состав сведений по разделам ГИСОГД</a>
+    </section>
   </div>
-</section>
 
-<div class="gisogd-reference-grid">
-  <section class="gisogd-reference-panel">
-    <h2>Нужен определённый реестр?</h2>
-    <p>Откройте перечень разделов и выберите нужный вид сведений.</p>
-    <nav class="gisogd-reference-links" aria-label="Реестры документов">
-      <a href="gisogd/overview/">Все разделы ГИСОГД</a>
-      <a href="gisogd/registries/sections-1-6/">Разделы 1–6</a>
-      <a href="gisogd/registries/sections-7-12/">Разделы 7–12</a>
-      <a href="gisogd/registries/section-13/">Дела о земельных участках</a>
-      <a href="gisogd/registries/sections-14-18/">Разделы 14–18</a>
-    </nav>
-  </section>
-  <section class="gisogd-reference-panel">
-    <h2>Изучаете систему?</h2>
-    <p>Для самостоятельного знакомства и занятий с преподавателем.</p>
-    <nav class="gisogd-reference-links" aria-label="Обучение и помощь">
-      <a href="training/">Программа обучения</a>
-      <a href="training/practice/">Практические работы</a>
-      <a href="videos/">Видеоматериалы</a>
-      <a href="help/">Если что-то не получается</a>
-    </nav>
-  </section>
+  <div class="gisogd-catalog__column">
+    <section class="gisogd-catalog-section" aria-labelledby="map">
+      <h2 id="map"><span class="gisogd-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="m3 6 6-2 6 2 6-2v14l-6 2-6-2-6 2V6Zm6-2v14m6-12v14"/></svg></span>Работа с картой</h2>
+      <nav class="gisogd-catalog-links" aria-label="Работа с картой">
+        <a href="operations/map/">Карта и её инструменты</a>
+        <a href="operations/map/#4521">Слои карты</a>
+        <a href="operations/map/#4522">Выбор объекта и просмотр информации</a>
+        <a href="operations/map/#4527">Поиск объектов</a>
+        <a href="operations/map/#4523">Измерение расстояний и площадей</a>
+        <a href="operations/map/#45212">Импорт геометрии</a>
+        <a href="operations/map/#45211">Печать карты</a>
+      </nav>
+    </section>
+
+    <section class="gisogd-catalog-section" aria-labelledby="training">
+      <h2 id="training"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/training.png" alt=""></span>Обучение</h2>
+      <nav class="gisogd-catalog-links" aria-label="Обучение">
+        <a href="training/">Программа обучения</a>
+        <a href="training/webinars-1-5/">Вебинары 1–5</a>
+        <a href="training/webinars-6-10/">Вебинары 6–10</a>
+        <a href="training/practice/">Практические работы</a>
+        <a href="training/assessment/">Контроль знаний и рекомендации</a>
+        <a href="videos/">Видеоматериалы</a>
+      </nav>
+    </section>
+  </div>
 </div>
 
-<section class="gisogd-official" markdown>
+<section class="gisogd-home-resources" markdown>
 
 ## Официальные ресурсы
 
