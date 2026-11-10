@@ -12,6 +12,14 @@ def read(name):
 
 
 class EditorialChecks(unittest.TestCase):
+    def test_getting_started_has_a_decorative_catalogue_icon(self):
+        heading = re.search(r'<h2 id="getting-started">(.*?)</h2>', read("docs/index.md"), re.S)
+        self.assertIsNotNone(heading)
+        self.assertIn('class="gisogd-section-icon" aria-hidden="true"', heading[1])
+        self.assertIn('<svg viewBox="0 0 24 24"', heading[1])
+        self.assertIn('stroke="currentColor"', heading[1])
+        self.assertIn("Начало работы", heading[1])
+
     def test_reader_orientation_explains_system_site_and_tasks(self):
         intro = read("docs/start-here.md").split("## Последовательность изучения", 1)[0]
         for required in (

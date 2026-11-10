@@ -21,7 +21,7 @@ hide:
 <div class="gisogd-catalog">
   <div class="gisogd-catalog__column">
     <section class="gisogd-catalog-section" aria-labelledby="getting-started">
-      <h2 id="getting-started">Начало работы</h2>
+      <h2 id="getting-started"><span class="gisogd-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9.5 3.8 6 3.5 3 4.5v14c3-1 6.5-.7 9 1 2.5-1.7 6-2 9-1v-14c-3-1-6.5-.7-9 1Z"/><path d="M12 5.5v14M6 8h3M6 11h3m6-3h3m-3 3h3"/></svg></span>Начало работы</h2>
       <nav class="gisogd-catalog-links" aria-label="Начало работы">
         <a href="introduction/">Введение</a>
         <a href="purpose/">Назначение и условия применения</a>
