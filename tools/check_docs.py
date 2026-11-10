@@ -36,6 +36,13 @@ def check_home(source):
     for group in ("applications", "registries", "operations", "map", "getting-started", "training"):
         if f'<h2 id="{group}">' not in source:
             errors.append(f"Homepage catalogue group missing: {group}")
+    columns = [re.findall(r'<h2 id="([^"]+)">', column)
+               for column in source.split('<div class="gisogd-catalog__column">')[1:]]
+    if columns != [["getting-started", "operations", "training"], ["registries"], ["applications", "map"]]:
+        errors.append("Group orientation, operations and training on the left; applications and map on the right")
+    registries = re.search(r'<nav class="gisogd-catalog-links" aria-label="Реестры документов">(.*?)</nav>', source, re.S)
+    if not registries or 'href="gisogd/overview/"' not in registries[1] or "gisogd-catalog-section__reference" in source:
+        errors.append("Registry overview must be a regular catalogue link, not a separated footer")
     for number in range(1, 19):
         target = "section-13/" if number == 13 else f"section-{number}/"
         if f'href="gisogd/registries/{target}"' not in source:

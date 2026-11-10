@@ -40,6 +40,20 @@ class GuideChecks(unittest.TestCase):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertTrue(check_home(source.replace('<h2 id="applications">', '<h2 id="wrong">')))
 
+    def test_orientation_precedes_work_and_training_stays_in_the_first_column(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        swapped = source.replace('id="getting-started"', 'id="temporary"').replace('id="applications"', 'id="getting-started"').replace('id="temporary"', 'id="applications"')
+        self.assertTrue(check_home(swapped))
+
+    def test_registry_overview_is_not_a_separate_footer(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        link = '<a href="gisogd/overview/">Состав сведений по разделам ГИСОГД</a>'
+        self.assertTrue(check_home(source.replace(link, '') + link))
+
+    def test_registry_overview_has_no_special_separator_style(self):
+        source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+        self.assertTrue(check_home(source.replace('href="gisogd/overview/"', 'class="gisogd-catalog-section__reference" href="gisogd/overview/"')))
+
     def test_redundant_homepage_jump_row_is_not_restored(self):
         source = (ROOT / "docs/index.md").read_text(encoding="utf-8")
         self.assertTrue(check_home(source + '<nav class="gisogd-home-nav"></nav>'))

@@ -105,14 +105,6 @@
 }
 
 .gisogd-home .gisogd-catalog-links a:hover { text-decoration: underline; }
-.gisogd-catalog-section__reference {
-  display: inline-block;
-  margin-top: 0.8rem;
-  padding-top: 0.55rem;
-  font-size: 0.8rem;
-  border-top: 1px solid var(--gisogd-line);
-}
-
 .gisogd-home-resources { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--gisogd-line); }
 .md-typeset .gisogd-home-resources h2 { margin: 0 0 0.6rem; padding: 0; font-size: 1rem; }
 .md-typeset .gisogd-home-resources ul { display: flex; flex-wrap: wrap; gap: 0.4rem 2rem; margin: 0; padding: 0; list-style: none; font-size: 0.82rem; }

@@ -20,14 +20,17 @@ hide:
 
 <div class="gisogd-catalog">
   <div class="gisogd-catalog__column">
-    <section class="gisogd-catalog-section" aria-labelledby="applications">
-      <h2 id="applications"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/applications.png" alt=""></span>Журнал заявлений</h2>
-      <nav class="gisogd-catalog-links" aria-label="Журнал заявлений">
-        <a href="gisogd/requests/">Регистрация поступивших заявок</a>
-        <a href="gisogd/registries/section-13/land-and-construction/#54134">Градостроительный план земельного участка (ГПЗУ)</a>
-        <a href="gisogd/registries/section-13/permits/">Разрешение на строительство</a>
-        <a href="gisogd/registries/section-13/permits/#54137">Разрешение на ввод объекта в эксплуатацию</a>
-        <a href="gisogd/registries/section-13/notifications/">Уведомления</a>
+    <section class="gisogd-catalog-section" aria-labelledby="getting-started">
+      <h2 id="getting-started">Начало работы</h2>
+      <nav class="gisogd-catalog-links" aria-label="Начало работы">
+        <a href="introduction/">Введение</a>
+        <a href="purpose/">Назначение и условия применения</a>
+        <a href="getting-started/">Подготовка к работе и вход в систему</a>
+        <a href="start-here/">Порядок изучения руководства</a>
+        <a href="quickstart/">Размещение документа по заявке</a>
+        <a href="help/">Возможные затруднения</a>
+        <a href="introduction/#15">Термины и сокращения</a>
+        <a href="reference/">Справочные сведения</a>
       </nav>
     </section>
 
@@ -43,17 +46,15 @@ hide:
       </nav>
     </section>
 
-    <section class="gisogd-catalog-section" aria-labelledby="getting-started">
-      <h2 id="getting-started">Начало работы</h2>
-      <nav class="gisogd-catalog-links" aria-label="Начало работы">
-        <a href="introduction/">Введение</a>
-        <a href="purpose/">Назначение и условия применения</a>
-        <a href="getting-started/">Подготовка к работе и вход в систему</a>
-        <a href="start-here/">Порядок изучения руководства</a>
-        <a href="quickstart/">Размещение документа по заявке</a>
-        <a href="help/">Возможные затруднения</a>
-        <a href="introduction/#15">Термины и сокращения</a>
-        <a href="reference/">Справочные сведения</a>
+    <section class="gisogd-catalog-section" aria-labelledby="training">
+      <h2 id="training"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/training.png" alt=""></span>Обучение</h2>
+      <nav class="gisogd-catalog-links" aria-label="Обучение">
+        <a href="training/">Программа обучения</a>
+        <a href="training/webinars-1-5/">Вебинары 1–5</a>
+        <a href="training/webinars-6-10/">Вебинары 6–10</a>
+        <a href="training/practice/">Практические работы</a>
+        <a href="training/assessment/">Контроль знаний и рекомендации</a>
+        <a href="videos/">Видеоматериалы</a>
       </nav>
     </section>
   </div>
@@ -62,6 +63,7 @@ hide:
     <section class="gisogd-catalog-section" aria-labelledby="registries">
       <h2 id="registries"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/registries.png" alt=""></span>Реестры документов</h2>
       <nav class="gisogd-catalog-links" aria-label="Реестры документов">
+        <a href="gisogd/overview/">Состав сведений по разделам ГИСОГД</a>
         <a href="gisogd/document-placement/">Размещение документов ГИСОГД</a>
         <a href="gisogd/registries/section-1/">Территориальное планирование Российской Федерации</a>
         <a href="gisogd/registries/section-2/">Территориальное планирование субъектов РФ</a>
@@ -82,11 +84,21 @@ hide:
         <a href="gisogd/registries/section-17/">Информационные модели объектов капитального строительства</a>
         <a href="gisogd/registries/section-18/">Иные документы</a>
       </nav>
-      <a class="gisogd-catalog-section__reference" href="gisogd/overview/">Состав сведений по разделам ГИСОГД</a>
     </section>
   </div>
 
   <div class="gisogd-catalog__column">
+    <section class="gisogd-catalog-section" aria-labelledby="applications">
+      <h2 id="applications"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/applications.png" alt=""></span>Журнал заявлений</h2>
+      <nav class="gisogd-catalog-links" aria-label="Журнал заявлений">
+        <a href="gisogd/requests/">Регистрация поступивших заявок</a>
+        <a href="gisogd/registries/section-13/land-and-construction/#54134">Градостроительный план земельного участка (ГПЗУ)</a>
+        <a href="gisogd/registries/section-13/permits/">Разрешение на строительство</a>
+        <a href="gisogd/registries/section-13/permits/#54137">Разрешение на ввод объекта в эксплуатацию</a>
+        <a href="gisogd/registries/section-13/notifications/">Уведомления</a>
+      </nav>
+    </section>
+
     <section class="gisogd-catalog-section" aria-labelledby="map">
       <h2 id="map"><span class="gisogd-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="m3 6 6-2 6 2 6-2v14l-6 2-6-2-6 2V6Zm6-2v14m6-12v14"/></svg></span>Работа с картой</h2>
       <nav class="gisogd-catalog-links" aria-label="Работа с картой">
@@ -101,17 +113,6 @@ hide:
       </nav>
     </section>
 
-    <section class="gisogd-catalog-section" aria-labelledby="training">
-      <h2 id="training"><span class="gisogd-section-icon" aria-hidden="true"><img src="assets/images/home/training.png" alt=""></span>Обучение</h2>
-      <nav class="gisogd-catalog-links" aria-label="Обучение">
-        <a href="training/">Программа обучения</a>
-        <a href="training/webinars-1-5/">Вебинары 1–5</a>
-        <a href="training/webinars-6-10/">Вебинары 6–10</a>
-        <a href="training/practice/">Практические работы</a>
-        <a href="training/assessment/">Контроль знаний и рекомендации</a>
-        <a href="videos/">Видеоматериалы</a>
-      </nav>
-    </section>
   </div>
 </div>
 
